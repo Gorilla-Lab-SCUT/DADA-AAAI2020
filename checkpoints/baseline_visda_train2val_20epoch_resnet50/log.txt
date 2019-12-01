@@ -1,0 +1,89 @@
+{"arch": "resnet50", "auxiliary_dataset": "visda_train", "batch_size_s": 128, "batch_size_t": 128, "dataset": "visda_val", "epochs": 20, "gamma": 0.1, "log": "/home/lab-tang.hui/project/minimal_model_for_UDA/ObDAN_for_tpami/baseline/baseline_visda_oneFCLayer_20epoch_visda_train_to_visda_val_resnet50", "lr": 0.001, "momentum": 0.9, "num_classes_s": 12, "num_classes_t": 6, "pretrained": true, "print_freq": 50, "resume": "", "schedule": [79, 119], "start_epoch": 0, "test_data_path": "/sharedData/tang-hui/visDA/first_6_class/validation/", "test_freq": 1, "test_only": false, "train_data_path": "/sharedData/tang-hui/visDA/train/images/", "weight_decay": 0.0001, "workers": 8}
+
+-------------------------------------------
+Wed Dec  5 09:57:55 2018
+-------------------------------------------
+Train:epoch: 0, loss: 0.148165, Top1 acc: 95.131959, Top5 acc: 99.716387
+                                    Test:epoch: 0, loss: 1.862490, Top1 acc: 60.849610, Top5 acc: 86.110153
+Acc for each class: 1st: 53.675262,  2nd: 9.812949, 3rd: 68.315567, 4th: 84.059227, 5th: 69.707954, 6th: 5.686747
+Avg. over all classes: 48.542951
+Top1 acc: 60.849610
+Train:epoch: 1, loss: 0.039725, Top1 acc: 98.694196, Top5 acc: 99.996061
+                                    Test:epoch: 1, loss: 2.067782, Top1 acc: 58.071641, Top5 acc: 85.233626
+Acc for each class: 1st: 43.390015,  2nd: 13.870503, 3rd: 63.432835, 4th: 83.068939, 5th: 65.700279, 6th: 3.228916
+Avg. over all classes: 45.448581
+Train:epoch: 2, loss: 0.024912, Top1 acc: 99.225972, Top5 acc: 99.998030
+                                    Test:epoch: 2, loss: 2.139216, Top1 acc: 56.667127, Top5 acc: 85.623577
+Acc for each class: 1st: 47.092705,  2nd: 14.705036, 3rd: 61.407249, 4th: 81.963272, 5th: 58.239182, 6th: 2.698795
+Avg. over all classes: 44.351040
+Train:epoch: 3, loss: 0.018773, Top1 acc: 99.412421, Top5 acc: 99.996717
+                                    Test:epoch: 3, loss: 2.276747, Top1 acc: 57.933605, Top5 acc: 84.733246
+Acc for each class: 1st: 55.732311,  2nd: 7.971223, 3rd: 56.076759, 4th: 86.655128, 5th: 59.198463, 6th: 2.843374
+Avg. over all classes: 44.746210
+Train:epoch: 4, loss: 0.014380, Top1 acc: 99.583114, Top5 acc: 99.998687
+                                    Test:epoch: 4, loss: 2.211920, Top1 acc: 56.867279, Top5 acc: 84.843675
+Acc for each class: 1st: 55.320900,  2nd: 11.971223, 3rd: 60.255863, 4th: 81.203728, 5th: 57.684929, 6th: 3.277108
+Avg. over all classes: 44.952292
+Train:epoch: 5, loss: 0.012152, Top1 acc: 99.619879, Top5 acc: 99.997374
+                                    Test:epoch: 5, loss: 2.244096, Top1 acc: 57.578163, Top5 acc: 84.205259
+Acc for each class: 1st: 52.825012,  2nd: 9.726619, 3rd: 63.987206, 4th: 78.377083, 5th: 68.578125, 6th: 2.457831
+Avg. over all classes: 45.991979
+Train:epoch: 6, loss: 0.010438, Top1 acc: 99.694722, Top5 acc: 99.997374
+                                    Test:epoch: 6, loss: 2.295576, Top1 acc: 56.511837, Top5 acc: 84.315688
+Acc for each class: 1st: 47.970379,  2nd: 9.294964, 3rd: 60.426437, 4th: 82.203636, 5th: 60.626732, 6th: 3.662651
+Avg. over all classes: 44.030800
+Train:epoch: 7, loss: 0.009894, Top1 acc: 99.705882, Top5 acc: 99.996061
+                                    Test:epoch: 7, loss: 2.309811, Top1 acc: 55.483470, Top5 acc: 84.301884
+Acc for each class: 1st: 46.818432,  2nd: 10.129497, 3rd: 59.893391, 4th: 81.136429, 5th: 57.279896, 6th: 4.048193
+Avg. over all classes: 43.217639
+Train:epoch: 8, loss: 0.008511, Top1 acc: 99.753808, Top5 acc: 100.000000
+                                    Test:epoch: 8, loss: 2.353766, Top1 acc: 54.662157, Top5 acc: 85.016219
+Acc for each class: 1st: 47.202415,  2nd: 10.992805, 3rd: 56.908314, 4th: 79.973076, 5th: 56.256660, 6th: 5.349398
+Avg. over all classes: 42.780445
+Train:epoch: 9, loss: 0.007944, Top1 acc: 99.767595, Top5 acc: 99.999343
+                                    Test:epoch: 9, loss: 2.263545, Top1 acc: 56.608462, Top5 acc: 85.209469
+Acc for each class: 1st: 54.690071,  2nd: 11.453238, 3rd: 57.313435, 4th: 78.521294, 5th: 65.252609, 6th: 4.626506
+Avg. over all classes: 45.309525
+Train:epoch: 10, loss: 0.007449, Top1 acc: 99.784007, Top5 acc: 99.999343
+                                    Test:epoch: 10, loss: 2.470300, Top1 acc: 54.707019, Top5 acc: 83.649665
+Acc for each class: 1st: 49.862862,  2nd: 9.410072, 3rd: 50.724945, 4th: 82.184402, 5th: 57.663612, 6th: 3.662651
+Avg. over all classes: 42.251424
+Train:epoch: 11, loss: 0.007253, Top1 acc: 99.789259, Top5 acc: 99.997374
+                                    Test:epoch: 11, loss: 2.384808, Top1 acc: 54.462006, Top5 acc: 83.967147
+Acc for each class: 1st: 46.105320,  2nd: 9.812949, 3rd: 56.396587, 4th: 78.771271, 5th: 60.328289, 6th: 4.433735
+Avg. over all classes: 42.641359
+Train:epoch: 12, loss: 0.006481, Top1 acc: 99.829963, Top5 acc: 99.998030
+                                    Test:epoch: 12, loss: 2.546594, Top1 acc: 52.263786, Top5 acc: 83.742839
+Acc for each class: 1st: 43.993416,  2nd: 10.474820, 3rd: 56.055439, 4th: 76.636864, 5th: 53.442764, 6th: 3.373494
+Avg. over all classes: 40.662799
+Train:epoch: 13, loss: 0.006107, Top1 acc: 99.841780, Top5 acc: 99.998687
+                                    Test:epoch: 13, loss: 2.490130, Top1 acc: 52.726206, Top5 acc: 84.081027
+Acc for each class: 1st: 42.347778,  2nd: 11.625899, 3rd: 54.157784, 4th: 78.617439, 5th: 53.933064, 6th: 4.048193
+Avg. over all classes: 40.788359
+Train:epoch: 14, loss: 0.006219, Top1 acc: 99.821429, Top5 acc: 99.999343
+                                    Test:epoch: 14, loss: 2.384089, Top1 acc: 54.261854, Top5 acc: 84.664228
+Acc for each class: 1st: 51.919910,  2nd: 12.633094, 3rd: 48.614071, 4th: 78.713585, 5th: 60.072479, 6th: 5.156627
+Avg. over all classes: 42.851628
+Train:epoch: 15, loss: 0.005650, Top1 acc: 99.850315, Top5 acc: 99.998030
+                                    Test:epoch: 15, loss: 2.409726, Top1 acc: 53.982331, Top5 acc: 83.932639
+Acc for each class: 1st: 46.516731,  2nd: 9.496403, 3rd: 51.769722, 4th: 77.261803, 5th: 64.804947, 6th: 5.445783
+Avg. over all classes: 42.549231
+Train:epoch: 16, loss: 0.005092, Top1 acc: 99.860163, Top5 acc: 99.998687
+                                    Test:epoch: 16, loss: 2.449309, Top1 acc: 53.219684, Top5 acc: 84.712541
+Acc for each class: 1st: 51.727921,  2nd: 11.769784, 3rd: 56.353943, 4th: 73.156425, 5th: 59.369003, 6th: 4.337349
+Avg. over all classes: 42.785738
+Train:epoch: 17, loss: 0.005098, Top1 acc: 99.861476, Top5 acc: 99.998687
+                                    Test:epoch: 17, loss: 2.582931, Top1 acc: 51.711643, Top5 acc: 83.870522
+Acc for each class: 1st: 45.721340,  2nd: 8.978417, 3rd: 51.513859, 4th: 75.915779, 5th: 55.595821, 6th: 4.144578
+Avg. over all classes: 40.311633
+Train:epoch: 18, loss: 0.005237, Top1 acc: 99.849002, Top5 acc: 99.999343
+                                    Test:epoch: 18, loss: 2.532823, Top1 acc: 52.156809, Top5 acc: 83.856719
+Acc for each class: 1st: 49.890289,  2nd: 9.640287, 3rd: 57.547974, 4th: 71.214310, 5th: 59.369003, 6th: 3.325301
+Avg. over all classes: 41.831194
+Train:epoch: 19, loss: 0.004809, Top1 acc: 99.879202, Top5 acc: 99.999343
+                                    Test:epoch: 19, loss: 2.468020, Top1 acc: 52.184416, Top5 acc: 84.039616
+Acc for each class: 1st: 51.481075,  2nd: 10.129497, 3rd: 55.820896, 4th: 73.310257, 5th: 54.274143, 6th: 5.012048
+Avg. over all classes: 41.671319
+-------------------------------------------
+Wed Dec  5 15:06:58 2018
+-------------------------------------------
