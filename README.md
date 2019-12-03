@@ -40,4 +40,4 @@ VisDA<br />
 - ...<br />
 
 # Training
-Replace paths and domains in run_visda_partial.sh with those in your own sysytem.
+Replace paths and domains in run_visda_partial.sh with those in your own system.
