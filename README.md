@@ -41,3 +41,12 @@ VisDA<br />
 
 # Training
 Replace paths and domains in run_visda_partial.sh with those in your own system.
+
+# Citation
+@article{dada,
+  title={Discriminative Adversarial Domain Adaptation},
+  author={Hui Tang and Kui Jia},
+  journal={ArXiv},
+  year={2019},
+  volume={abs/1911.12036}
+}
