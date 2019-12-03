@@ -11,7 +11,7 @@ The structure of the dataset should be like
 VisDA   
 |visda_train   
 |  |_ aeroplane   
-|     |_ \<im-1-name\>.jpg   
+|     |_ \<im-1-na      me\>.jpg   
 |     |_ ...   
 |     |_ \<im-N-name\>.jpg   
 |  |_ bicycle   
