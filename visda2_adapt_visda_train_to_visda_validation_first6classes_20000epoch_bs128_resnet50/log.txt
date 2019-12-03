@@ -1,0 +1,1150 @@
+{"arch": "resnet50", "batch_size": 128, "convex_combine": true, "disc_tar": true, "epochs": 20000, "lam": true, "log": "visda2_adapt_visda_train_to_visda_validation_first6classes_20000epoch_bs128_resnet50", "lr": 0.0001, "momentum": 0.9, "no_da": true, "num_classes_s": 12, "pretrained": true, "pretrained_checkpoint": "./checkpoints/baseline_visda_train2val_20epoch_resnet50/checkpoint.pth.tar", "print_freq": 50, "resume": "", "source_domain": "visda_train", "source_train_data_path": "/sharedData/visDA/", "start_epoch": 0, "stop_epoch": 1000, "target_domain": "visda_validation_first6classes", "target_test_data_path": "/sharedData/visDA/", "target_train_data_path": "/sharedData/visDA/", "test_only": false, "test_time": 4000, "train_by_iter": true, "weight_decay": 0.0001, "workers": 4}
+
+-------------------------------------------
+Sun Dec  1 13:25:47 2019
+-------------------------------------------
+Train: 0, loss_min: 0.660903, loss_max: -0.660903, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 2, loss_min: 0.706924, loss_max: -0.703975, Top1 acc: 97.656250, Top5 acc: 100.000000
+Train: 4, loss_min: 0.637723, loss_max: -0.631351, Top1 acc: 95.312500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.950861, Top1 acc: 55.766445, Top5 acc: 88.035751
+Acc. for each class: 1st: 77.701591,  2nd: 18.359713, 3rd: 64.754799, 4th: 64.070763, 5th: 61.905777, 6th: 4.048193
+Avg. over all classes: 48.473476
+Best accuracy till now: 55.766445
+Train: 6, loss_min: 0.654418, loss_max: -0.644943, Top1 acc: 98.437500, Top5 acc: 100.000000
+Train: 8, loss_min: 0.707235, loss_max: -0.695052, Top1 acc: 96.093750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.996786, Top1 acc: 54.282562, Top5 acc: 88.888123
+Acc. for each class: 1st: 78.250137,  2nd: 23.309353, 3rd: 62.878464, 4th: 57.648304, 5th: 64.527817, 6th: 4.578313
+Avg. over all classes: 48.532063
+Train: 10, loss_min: 0.716743, loss_max: -0.701313, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 12, loss_min: 0.674024, loss_max: -0.654816, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 14, loss_min: 0.624511, loss_max: -0.602352, Top1 acc: 97.656250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.059360, Top1 acc: 53.043690, Top5 acc: 88.684525
+Acc. for each class: 1st: 76.906197,  2nd: 21.784172, 3rd: 61.556503, 4th: 56.494568, 5th: 62.886379, 6th: 4.674699
+Avg. over all classes: 47.383755
+Train: 16, loss_min: 0.700560, loss_max: -0.676535, Top1 acc: 97.656250, Top5 acc: 100.000000
+Train: 18, loss_min: 0.601298, loss_max: -0.570225, Top1 acc: 93.750000, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.108270, Top1 acc: 52.695148, Top5 acc: 88.398102
+Acc. for each class: 1st: 75.863960,  2nd: 20.345324, 3rd: 60.682304, 4th: 56.783001, 5th: 62.758472, 6th: 4.867470
+Avg. over all classes: 46.883423
+Train: 20, loss_min: 0.613871, loss_max: -0.581392, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 22, loss_min: 0.744161, loss_max: -0.710838, Top1 acc: 96.093750, Top5 acc: 100.000000
+Train: 24, loss_min: 0.730174, loss_max: -0.692402, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.993285, Top1 acc: 55.445511, Top5 acc: 89.250473
+Acc. for each class: 1st: 82.473946,  2nd: 23.107914, 3rd: 61.449894, 4th: 57.936737, 5th: 69.089745, 6th: 5.204819
+Avg. over all classes: 49.877178
+Train: 26, loss_min: 0.613912, loss_max: -0.570075, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 28, loss_min: 0.569749, loss_max: -0.521444, Top1 acc: 96.093750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.868836, Top1 acc: 57.036373, Top5 acc: 89.705986
+Acc. for each class: 1st: 82.062531,  2nd: 27.827337, 3rd: 65.714287, 4th: 59.830784, 5th: 67.021957, 6th: 5.783133
+Avg. over all classes: 51.373341
+Best accuracy till now: 57.036373
+Train: 30, loss_min: 0.702596, loss_max: -0.654454, Top1 acc: 92.187500, Top5 acc: 100.000000
+Train: 32, loss_min: 0.659330, loss_max: -0.607422, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 34, loss_min: 0.596304, loss_max: -0.536975, Top1 acc: 93.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.997371, Top1 acc: 55.228107, Top5 acc: 89.585205
+Acc. for each class: 1st: 81.020294,  2nd: 25.410072, 3rd: 61.300640, 4th: 59.513508, 5th: 63.632488, 6th: 5.638554
+Avg. over all classes: 49.419254
+Train: 36, loss_min: 0.651030, loss_max: -0.593181, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 38, loss_min: 0.656690, loss_max: -0.591704, Top1 acc: 92.968750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.125964, Top1 acc: 53.913315, Top5 acc: 89.450623
+Acc. for each class: 1st: 78.716400,  2nd: 23.769785, 3rd: 61.044777, 4th: 55.763870, 5th: 67.490944, 6th: 4.722891
+Avg. over all classes: 48.584778
+Train: 40, loss_min: 0.576532, loss_max: -0.506867, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 42, loss_min: 0.643936, loss_max: -0.577074, Top1 acc: 97.656250, Top5 acc: 100.000000
+Train: 44, loss_min: 0.675310, loss_max: -0.604045, Top1 acc: 96.875000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.110632, Top1 acc: 54.879566, Top5 acc: 89.046867
+Acc. for each class: 1st: 78.798683,  2nd: 22.100719, 3rd: 63.454159, 4th: 59.282761, 5th: 64.463867, 6th: 4.626506
+Avg. over all classes: 48.787781
+Train: 46, loss_min: 0.658162, loss_max: -0.579574, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 48, loss_min: 0.598191, loss_max: -0.512374, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.081803, Top1 acc: 56.001106, Top5 acc: 89.402306
+Acc. for each class: 1st: 75.809105,  2nd: 20.575539, 3rd: 64.392326, 4th: 61.840206, 5th: 68.364952, 6th: 4.337349
+Avg. over all classes: 49.219913
+Train: 50, loss_min: 0.718452, loss_max: -0.637647, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 52, loss_min: 0.639052, loss_max: -0.547395, Top1 acc: 93.750000, Top5 acc: 100.000000
+Train: 54, loss_min: 0.600437, loss_max: -0.507438, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.987342, Top1 acc: 57.250332, Top5 acc: 89.899239
+Acc. for each class: 1st: 80.005486,  2nd: 22.705036, 3rd: 64.093819, 4th: 62.715122, 5th: 69.132378, 6th: 5.397590
+Avg. over all classes: 50.674908
+Best accuracy till now: 57.250332
+Train: 56, loss_min: 0.564205, loss_max: -0.464569, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 58, loss_min: 0.592025, loss_max: -0.488485, Top1 acc: 96.875000, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.920964, Top1 acc: 59.017189, Top5 acc: 89.668030
+Acc. for each class: 1st: 82.775642,  2nd: 21.956835, 3rd: 67.057571, 4th: 63.541965, 5th: 74.035385, 6th: 4.530120
+Avg. over all classes: 52.316250
+Best accuracy till now: 59.017189
+Train: 60, loss_min: 0.630437, loss_max: -0.524204, Top1 acc: 93.750000, Top5 acc: 100.000000
+Train: 62, loss_min: 0.693382, loss_max: -0.590327, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 64, loss_min: 0.635255, loss_max: -0.520547, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.901484, Top1 acc: 58.920563, Top5 acc: 90.092491
+Acc. for each class: 1st: 82.419090,  2nd: 23.194244, 3rd: 66.417908, 4th: 64.243820, 5th: 71.519928, 6th: 5.349398
+Avg. over all classes: 52.190731
+Train: 66, loss_min: 0.667426, loss_max: -0.557009, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 68, loss_min: 0.650499, loss_max: -0.533845, Top1 acc: 98.437500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.903154, Top1 acc: 59.555527, Top5 acc: 89.857826
+Acc. for each class: 1st: 81.623695,  2nd: 21.726618, 3rd: 68.933899, 4th: 65.868668, 5th: 71.178856, 6th: 5.012048
+Avg. over all classes: 52.390629
+Best accuracy till now: 59.555527
+Train: 70, loss_min: 0.682384, loss_max: -0.563286, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 72, loss_min: 0.644427, loss_max: -0.525821, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 74, loss_min: 0.664645, loss_max: -0.532449, Top1 acc: 92.968750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.069720, Top1 acc: 57.519501, Top5 acc: 89.695633
+Acc. for each class: 1st: 77.893585,  2nd: 19.856115, 3rd: 66.076759, 4th: 64.320740, 5th: 69.537415, 6th: 4.192771
+Avg. over all classes: 50.312901
+Train: 76, loss_min: 0.697023, loss_max: -0.571343, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 78, loss_min: 0.600851, loss_max: -0.467519, Top1 acc: 95.312500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.975660, Top1 acc: 58.944717, Top5 acc: 90.299538
+Acc. for each class: 1st: 81.870544,  2nd: 22.877697, 3rd: 66.055435, 4th: 64.695702, 5th: 71.903648, 6th: 4.867470
+Avg. over all classes: 52.045086
+Train: 80, loss_min: 0.592237, loss_max: -0.450029, Top1 acc: 96.093750, Top5 acc: 100.000000
+Train: 82, loss_min: 0.633570, loss_max: -0.487060, Top1 acc: 98.437500, Top5 acc: 100.000000
+Train: 84, loss_min: 0.671863, loss_max: -0.529351, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.988301, Top1 acc: 59.086205, Top5 acc: 90.164955
+Acc. for each class: 1st: 79.402084,  2nd: 20.258993, 3rd: 67.505333, 4th: 64.474571, 5th: 75.612877, 6th: 5.012048
+Avg. over all classes: 52.044323
+Train: 86, loss_min: 0.638327, loss_max: -0.492478, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 88, loss_min: 0.657521, loss_max: -0.501449, Top1 acc: 93.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.989422, Top1 acc: 59.051697, Top5 acc: 90.230522
+Acc. for each class: 1st: 78.826111,  2nd: 20.892086, 3rd: 67.803841, 4th: 64.839920, 5th: 73.566406, 6th: 6.602410
+Avg. over all classes: 52.088459
+Train: 90, loss_min: 0.675619, loss_max: -0.516409, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 92, loss_min: 0.679235, loss_max: -0.519832, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 94, loss_min: 0.636391, loss_max: -0.465398, Top1 acc: 96.875000, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.977068, Top1 acc: 59.231144, Top5 acc: 90.351303
+Acc. for each class: 1st: 79.292374,  2nd: 22.100719, 3rd: 67.867805, 4th: 64.993752, 5th: 73.118736, 6th: 6.361446
+Avg. over all classes: 52.289139
+Train: 96, loss_min: 0.686983, loss_max: -0.527476, Top1 acc: 97.656250, Top5 acc: 100.000000
+Train: 98, loss_min: 0.718242, loss_max: -0.556800, Top1 acc: 93.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.883449, Top1 acc: 61.022156, Top5 acc: 90.548004
+Acc. for each class: 1st: 81.294571,  2nd: 23.366907, 3rd: 69.850746, 4th: 67.531967, 5th: 74.035385, 6th: 6.457831
+Avg. over all classes: 53.756237
+Best accuracy till now: 61.022156
+Train: 100, loss_min: 0.706618, loss_max: -0.542250, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 102, loss_min: 0.685329, loss_max: -0.511221, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 104, loss_min: 0.633459, loss_max: -0.450309, Top1 acc: 95.312500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.877814, Top1 acc: 61.546692, Top5 acc: 90.437576
+Acc. for each class: 1st: 79.758636,  2nd: 23.654676, 3rd: 69.232407, 4th: 70.647057, 5th: 72.308678, 6th: 5.686747
+Avg. over all classes: 53.548035
+Best accuracy till now: 61.546692
+Train: 106, loss_min: 0.640879, loss_max: -0.453973, Top1 acc: 96.093750, Top5 acc: 100.000000
+Train: 108, loss_min: 0.641867, loss_max: -0.445111, Top1 acc: 92.187500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.962142, Top1 acc: 60.328529, Top5 acc: 90.396164
+Acc. for each class: 1st: 80.471748,  2nd: 24.143885, 3rd: 66.801704, 4th: 68.041534, 5th: 72.329994, 6th: 5.108434
+Avg. over all classes: 52.816212
+Train: 110, loss_min: 0.739710, loss_max: -0.553370, Top1 acc: 96.093750, Top5 acc: 100.000000
+Train: 112, loss_min: 0.667135, loss_max: -0.471476, Top1 acc: 92.187500, Top5 acc: 100.000000
+Train: 114, loss_min: 0.626745, loss_max: -0.423733, Top1 acc: 92.187500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.915549, Top1 acc: 61.563946, Top5 acc: 90.706749
+Acc. for each class: 1st: 80.334610,  2nd: 22.589928, 3rd: 67.889122, 4th: 69.445244, 5th: 76.806648, 6th: 5.590362
+Avg. over all classes: 53.775986
+Best accuracy till now: 61.563946
+Train: 116, loss_min: 0.617317, loss_max: -0.411944, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 118, loss_min: 0.714238, loss_max: -0.515264, Top1 acc: 96.093750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.850862, Top1 acc: 62.996067, Top5 acc: 90.948311
+Acc. for each class: 1st: 81.376854,  2nd: 24.517986, 3rd: 70.426437, 4th: 72.291122, 5th: 74.696228, 6th: 5.301205
+Avg. over all classes: 54.768307
+Best accuracy till now: 62.996067
+Train: 120, loss_min: 0.687773, loss_max: -0.471762, Top1 acc: 94.531250, Top5 acc: 99.218750
+Train: 122, loss_min: 0.702102, loss_max: -0.490564, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 124, loss_min: 0.663010, loss_max: -0.437416, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.808342, Top1 acc: 63.755264, Top5 acc: 90.958664
+Acc. for each class: 1st: 81.815689,  2nd: 23.942446, 3rd: 69.061836, 4th: 73.714066, 5th: 77.467491, 6th: 5.783133
+Avg. over all classes: 55.297443
+Best accuracy till now: 63.755264
+Train: 126, loss_min: 0.656521, loss_max: -0.427459, Top1 acc: 92.968750, Top5 acc: 99.218750
+Train: 128, loss_min: 0.708413, loss_max: -0.488538, Top1 acc: 96.093750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.831330, Top1 acc: 63.147907, Top5 acc: 91.055290
+Acc. for each class: 1st: 83.214485,  2nd: 25.553957, 3rd: 69.850746, 4th: 70.320160, 5th: 77.957794, 6th: 6.265060
+Avg. over all classes: 55.527039
+Train: 130, loss_min: 0.681021, loss_max: -0.445121, Top1 acc: 92.187500, Top5 acc: 100.000000
+Train: 132, loss_min: 0.724579, loss_max: -0.512163, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 134, loss_min: 0.653521, loss_max: -0.407127, Top1 acc: 97.656250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.993937, Top1 acc: 61.118782, Top5 acc: 90.820625
+Acc. for each class: 1st: 82.693359,  2nd: 21.726618, 3rd: 69.402985, 4th: 68.128067, 5th: 73.609039, 6th: 7.084337
+Avg. over all classes: 53.774067
+Train: 136, loss_min: 0.683703, loss_max: -0.453583, Top1 acc: 97.656250, Top5 acc: 100.000000
+Train: 138, loss_min: 0.675521, loss_max: -0.437304, Top1 acc: 95.312500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.777870, Top1 acc: 64.379875, Top5 acc: 91.410728
+Acc. for each class: 1st: 85.298958,  2nd: 26.273382, 3rd: 71.407249, 4th: 72.319969, 5th: 77.318268, 6th: 6.506024
+Avg. over all classes: 56.520641
+Best accuracy till now: 64.379875
+Train: 140, loss_min: 0.683374, loss_max: -0.439030, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 142, loss_min: 0.716216, loss_max: -0.463134, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 144, loss_min: 0.739422, loss_max: -0.500074, Top1 acc: 96.093750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.742163, Top1 acc: 65.218445, Top5 acc: 91.983574
+Acc. for each class: 1st: 84.503563,  2nd: 27.424461, 3rd: 72.473351, 4th: 72.723778, 5th: 80.302704, 6th: 6.506024
+Avg. over all classes: 57.322311
+Best accuracy till now: 65.218445
+Train: 146, loss_min: 0.694974, loss_max: -0.429545, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 148, loss_min: 0.716377, loss_max: -0.473207, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.924710, Top1 acc: 62.602665, Top5 acc: 91.479744
+Acc. for each class: 1st: 84.174438,  2nd: 24.546762, 3rd: 69.275055, 4th: 68.656860, 5th: 78.767853, 6th: 6.457831
+Avg. over all classes: 55.313129
+Train: 150, loss_min: 0.683905, loss_max: -0.433210, Top1 acc: 97.656250, Top5 acc: 100.000000
+Train: 152, loss_min: 0.663231, loss_max: -0.390172, Top1 acc: 92.187500, Top5 acc: 100.000000
+Train: 154, loss_min: 0.663494, loss_max: -0.393463, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.978195, Top1 acc: 62.188560, Top5 acc: 91.365868
+Acc. for each class: 1st: 81.678551,  2nd: 23.136690, 3rd: 69.658852, 4th: 69.868279, 5th: 76.231079, 6th: 6.216867
+Avg. over all classes: 54.465054
+Train: 156, loss_min: 0.738451, loss_max: -0.484454, Top1 acc: 98.437500, Top5 acc: 100.000000
+Train: 158, loss_min: 0.688652, loss_max: -0.421673, Top1 acc: 95.312500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.904490, Top1 acc: 63.907104, Top5 acc: 91.462494
+Acc. for each class: 1st: 81.705978,  2nd: 22.848921, 3rd: 69.658852, 4th: 74.588982, 5th: 76.508209, 6th: 6.361446
+Avg. over all classes: 55.278732
+Train: 160, loss_min: 0.672162, loss_max: -0.393546, Top1 acc: 96.093750, Top5 acc: 100.000000
+Train: 162, loss_min: 0.727424, loss_max: -0.445859, Top1 acc: 96.093750, Top5 acc: 99.218750
+Train: 164, loss_min: 0.695813, loss_max: -0.401576, Top1 acc: 94.531250, Top5 acc: 99.218750
+                                    Test: 0, loss: 1.848410, Top1 acc: 64.228035, Top5 acc: 91.455589
+Acc. for each class: 1st: 82.446518,  2nd: 24.776978, 3rd: 70.319832, 4th: 74.637054, 5th: 75.719460, 6th: 6.361446
+Avg. over all classes: 55.710217
+Train: 166, loss_min: 0.662397, loss_max: -0.381800, Top1 acc: 96.093750, Top5 acc: 100.000000
+Train: 168, loss_min: 0.673491, loss_max: -0.391385, Top1 acc: 98.437500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.866413, Top1 acc: 64.348816, Top5 acc: 91.655746
+Acc. for each class: 1st: 81.623695,  2nd: 26.187050, 3rd: 71.087418, 4th: 74.694740, 5th: 75.484970, 6th: 5.638554
+Avg. over all classes: 55.786072
+Train: 170, loss_min: 0.689926, loss_max: -0.410908, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 172, loss_min: 0.745561, loss_max: -0.469170, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 174, loss_min: 0.633778, loss_max: -0.345725, Top1 acc: 92.968750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.900880, Top1 acc: 64.517914, Top5 acc: 91.804131
+Acc. for each class: 1st: 83.625893,  2nd: 24.575539, 3rd: 69.466949, 4th: 75.088936, 5th: 76.742699, 6th: 6.024096
+Avg. over all classes: 55.920689
+Train: 176, loss_min: 0.775061, loss_max: -0.492899, Top1 acc: 90.625000, Top5 acc: 100.000000
+Train: 178, loss_min: 0.697903, loss_max: -0.410633, Top1 acc: 93.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.912974, Top1 acc: 63.976124, Top5 acc: 91.928360
+Acc. for each class: 1st: 85.984642,  2nd: 25.352518, 3rd: 67.313431, 4th: 73.598694, 5th: 76.167130, 6th: 6.650602
+Avg. over all classes: 55.844501
+Train: 180, loss_min: 0.728118, loss_max: -0.431725, Top1 acc: 96.093750, Top5 acc: 100.000000
+Train: 182, loss_min: 0.672903, loss_max: -0.359306, Top1 acc: 95.312500, Top5 acc: 99.218750
+Train: 184, loss_min: 0.759573, loss_max: -0.466141, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.908948, Top1 acc: 64.034790, Top5 acc: 92.014633
+Acc. for each class: 1st: 84.613274,  2nd: 25.611511, 3rd: 69.040512, 4th: 72.473801, 5th: 78.256233, 6th: 6.457831
+Avg. over all classes: 56.075527
+Train: 186, loss_min: 0.696440, loss_max: -0.385602, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 188, loss_min: 0.763441, loss_max: -0.468103, Top1 acc: 93.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.907558, Top1 acc: 64.300507, Top5 acc: 91.900757
+Acc. for each class: 1st: 84.311577,  2nd: 25.208633, 3rd: 67.974411, 4th: 73.819824, 5th: 78.469406, 6th: 6.554217
+Avg. over all classes: 56.056351
+Train: 190, loss_min: 0.674235, loss_max: -0.354423, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 192, loss_min: 0.712048, loss_max: -0.398736, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 194, loss_min: 0.697396, loss_max: -0.384451, Top1 acc: 92.968750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.894447, Top1 acc: 64.735321, Top5 acc: 92.276901
+Acc. for each class: 1st: 82.419090,  2nd: 24.661871, 3rd: 69.104477, 4th: 76.261894, 5th: 76.401619, 6th: 6.746988
+Avg. over all classes: 55.932652
+Train: 196, loss_min: 0.702288, loss_max: -0.399686, Top1 acc: 97.656250, Top5 acc: 100.000000
+Train: 198, loss_min: 0.763616, loss_max: -0.444611, Top1 acc: 93.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.025372, Top1 acc: 63.993378, Top5 acc: 91.762718
+Acc. for each class: 1st: 81.788261,  2nd: 21.726618, 3rd: 66.481873, 4th: 76.656090, 5th: 76.614792, 6th: 5.879518
+Avg. over all classes: 54.857861
+Train: 200, loss_min: 0.712881, loss_max: -0.405849, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 202, loss_min: 0.683008, loss_max: -0.372862, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 204, loss_min: 0.737474, loss_max: -0.401154, Top1 acc: 91.406250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.940874, Top1 acc: 64.942375, Top5 acc: 92.073303
+Acc. for each class: 1st: 82.995064,  2nd: 24.575539, 3rd: 65.991470, 4th: 76.723389, 5th: 79.684502, 6th: 6.072289
+Avg. over all classes: 56.007046
+Train: 206, loss_min: 0.710604, loss_max: -0.364158, Top1 acc: 96.093750, Top5 acc: 100.000000
+Train: 208, loss_min: 0.686177, loss_max: -0.364741, Top1 acc: 96.093750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.923978, Top1 acc: 64.707710, Top5 acc: 92.197533
+Acc. for each class: 1st: 82.912781,  2nd: 26.474821, 3rd: 66.929634, 4th: 74.713966, 5th: 80.132172, 6th: 6.698795
+Avg. over all classes: 56.310360
+Train: 210, loss_min: 0.712066, loss_max: -0.357968, Top1 acc: 94.531250, Top5 acc: 99.218750
+Train: 212, loss_min: 0.680777, loss_max: -0.312169, Top1 acc: 91.406250, Top5 acc: 100.000000
+Train: 214, loss_min: 0.710833, loss_max: -0.367896, Top1 acc: 90.625000, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.874236, Top1 acc: 65.152878, Top5 acc: 92.094009
+Acc. for each class: 1st: 86.012070,  2nd: 26.244604, 3rd: 67.142860, 4th: 74.146713, 5th: 81.432533, 6th: 7.277109
+Avg. over all classes: 57.042648
+Train: 216, loss_min: 0.712696, loss_max: -0.392901, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 218, loss_min: 0.684708, loss_max: -0.347727, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.944485, Top1 acc: 65.045898, Top5 acc: 91.427986
+Acc. for each class: 1st: 84.476135,  2nd: 23.884892, 3rd: 67.462685, 4th: 76.184982, 5th: 79.364738, 6th: 6.168674
+Avg. over all classes: 56.257015
+Train: 220, loss_min: 0.693452, loss_max: -0.342637, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 222, loss_min: 0.756653, loss_max: -0.436725, Top1 acc: 96.875000, Top5 acc: 100.000000
+Train: 224, loss_min: 0.735565, loss_max: -0.399963, Top1 acc: 91.406250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.889250, Top1 acc: 66.288223, Top5 acc: 91.372772
+Acc. for each class: 1st: 84.284149,  2nd: 20.546762, 3rd: 70.085289, 4th: 79.117393, 5th: 80.174805, 6th: 6.987952
+Avg. over all classes: 56.866058
+Best accuracy till now: 66.288223
+Train: 226, loss_min: 0.664758, loss_max: -0.336109, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 228, loss_min: 0.694101, loss_max: -0.330194, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.797192, Top1 acc: 67.395958, Top5 acc: 92.090553
+Acc. for each class: 1st: 86.450905,  2nd: 24.028776, 3rd: 71.684433, 4th: 78.636673, 5th: 82.349182, 6th: 6.698795
+Avg. over all classes: 58.308125
+Best accuracy till now: 67.395958
+Train: 230, loss_min: 0.765181, loss_max: -0.428419, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 232, loss_min: 0.708179, loss_max: -0.380008, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 234, loss_min: 0.686111, loss_max: -0.334611, Top1 acc: 96.093750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.937502, Top1 acc: 65.870667, Top5 acc: 91.821388
+Acc. for each class: 1st: 86.615471,  2nd: 22.877697, 3rd: 67.910446, 4th: 78.607826, 5th: 77.424858, 6th: 6.843373
+Avg. over all classes: 56.713284
+Train: 236, loss_min: 0.746050, loss_max: -0.413496, Top1 acc: 97.656250, Top5 acc: 100.000000
+Train: 238, loss_min: 0.732674, loss_max: -0.360047, Top1 acc: 92.187500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.940468, Top1 acc: 66.233009, Top5 acc: 91.548767
+Acc. for each class: 1st: 84.969833,  2nd: 20.258993, 3rd: 69.061836, 4th: 79.636574, 5th: 79.641869, 6th: 6.409638
+Avg. over all classes: 56.663128
+Train: 240, loss_min: 0.768358, loss_max: -0.444262, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 242, loss_min: 0.649506, loss_max: -0.287306, Top1 acc: 92.187500, Top5 acc: 100.000000
+Train: 244, loss_min: 0.710207, loss_max: -0.347286, Top1 acc: 95.312500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.954434, Top1 acc: 66.036308, Top5 acc: 91.883499
+Acc. for each class: 1st: 85.929787,  2nd: 22.503597, 3rd: 70.682304, 4th: 77.540619, 5th: 79.044983, 6th: 6.409638
+Avg. over all classes: 57.018490
+Train: 246, loss_min: 0.698622, loss_max: -0.326966, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 248, loss_min: 0.720202, loss_max: -0.368172, Top1 acc: 96.093750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.845987, Top1 acc: 66.888680, Top5 acc: 92.401138
+Acc. for each class: 1st: 83.406471,  2nd: 25.467627, 3rd: 71.044777, 4th: 78.329010, 5th: 81.304626, 6th: 7.903615
+Avg. over all classes: 57.909359
+Train: 250, loss_min: 0.676800, loss_max: -0.322878, Top1 acc: 96.093750, Top5 acc: 100.000000
+Train: 252, loss_min: 0.683578, loss_max: -0.317997, Top1 acc: 93.750000, Top5 acc: 100.000000
+Train: 254, loss_min: 0.720166, loss_max: -0.369197, Top1 acc: 96.093750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.834365, Top1 acc: 67.140594, Top5 acc: 92.494308
+Acc. for each class: 1st: 84.887550,  2nd: 25.611511, 3rd: 71.833687, 4th: 79.059708, 5th: 79.151566, 6th: 8.000000
+Avg. over all classes: 58.090668
+Train: 256, loss_min: 0.703342, loss_max: -0.318053, Top1 acc: 96.093750, Top5 acc: 99.218750
+Train: 258, loss_min: 0.701957, loss_max: -0.306672, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.858115, Top1 acc: 67.054321, Top5 acc: 92.687561
+Acc. for each class: 1st: 85.628082,  2nd: 26.388489, 3rd: 71.577827, 4th: 77.165657, 5th: 82.008102, 6th: 7.807229
+Avg. over all classes: 58.429226
+Train: 260, loss_min: 0.688305, loss_max: -0.322251, Top1 acc: 92.187500, Top5 acc: 100.000000
+Train: 262, loss_min: 0.695902, loss_max: -0.326619, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 264, loss_min: 0.684100, loss_max: -0.312273, Top1 acc: 93.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.856377, Top1 acc: 67.171654, Top5 acc: 92.618546
+Acc. for each class: 1st: 83.461327,  2nd: 26.244604, 3rd: 70.597015, 4th: 78.953949, 5th: 81.752289, 6th: 7.325301
+Avg. over all classes: 58.055744
+Train: 266, loss_min: 0.687085, loss_max: -0.299901, Top1 acc: 90.625000, Top5 acc: 99.218750
+Train: 268, loss_min: 0.686411, loss_max: -0.336106, Top1 acc: 91.406250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.849337, Top1 acc: 67.589211, Top5 acc: 92.421844
+Acc. for each class: 1st: 84.750412,  2nd: 24.402878, 3rd: 71.940300, 4th: 79.203926, 5th: 83.031334, 6th: 6.795181
+Avg. over all classes: 58.354004
+Best accuracy till now: 67.589211
+Train: 270, loss_min: 0.706164, loss_max: -0.301321, Top1 acc: 93.750000, Top5 acc: 100.000000
+Train: 272, loss_min: 0.697310, loss_max: -0.339762, Top1 acc: 93.750000, Top5 acc: 100.000000
+Train: 274, loss_min: 0.740450, loss_max: -0.400584, Top1 acc: 89.062500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.917805, Top1 acc: 66.899033, Top5 acc: 92.352821
+Acc. for each class: 1st: 82.528801,  2nd: 25.410072, 3rd: 66.993607, 4th: 80.396118, 5th: 82.221275, 6th: 6.409638
+Avg. over all classes: 57.326584
+Train: 276, loss_min: 0.712557, loss_max: -0.297745, Top1 acc: 89.843750, Top5 acc: 99.218750
+Train: 278, loss_min: 0.658490, loss_max: -0.291704, Top1 acc: 93.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.983250, Top1 acc: 66.557388, Top5 acc: 92.283806
+Acc. for each class: 1st: 83.625893,  2nd: 22.647482, 3rd: 66.780380, 4th: 79.280838, 5th: 83.820084, 6th: 6.795181
+Avg. over all classes: 57.158306
+Train: 280, loss_min: 0.736354, loss_max: -0.368016, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 282, loss_min: 0.731738, loss_max: -0.331732, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 284, loss_min: 0.745152, loss_max: -0.371684, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.098376, Top1 acc: 65.315071, Top5 acc: 92.552979
+Acc. for each class: 1st: 83.269333,  2nd: 24.143885, 3rd: 65.799576, 4th: 77.300262, 5th: 80.686424, 6th: 6.795181
+Avg. over all classes: 56.332443
+Train: 286, loss_min: 0.630412, loss_max: -0.225797, Top1 acc: 90.625000, Top5 acc: 100.000000
+Train: 288, loss_min: 0.665673, loss_max: -0.293450, Top1 acc: 89.843750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.029585, Top1 acc: 66.070816, Top5 acc: 92.452896
+Acc. for each class: 1st: 83.598465,  2nd: 21.352518, 3rd: 69.083153, 4th: 77.877129, 5th: 82.136002, 6th: 7.855422
+Avg. over all classes: 56.983776
+Train: 290, loss_min: 0.669995, loss_max: -0.269748, Top1 acc: 93.750000, Top5 acc: 100.000000
+Train: 292, loss_min: 0.666808, loss_max: -0.332096, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 294, loss_min: 0.744259, loss_max: -0.386765, Top1 acc: 92.187500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.985264, Top1 acc: 66.736839, Top5 acc: 92.584030
+Acc. for each class: 1st: 86.039497,  2nd: 23.856115, 3rd: 69.722816, 4th: 78.502068, 5th: 80.729057, 6th: 7.277109
+Avg. over all classes: 57.687778
+Train: 296, loss_min: 0.699240, loss_max: -0.338186, Top1 acc: 89.062500, Top5 acc: 100.000000
+Train: 298, loss_min: 0.638861, loss_max: -0.293166, Top1 acc: 98.437500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.130423, Top1 acc: 66.074265, Top5 acc: 91.662643
+Acc. for each class: 1st: 82.720787,  2nd: 18.906475, 3rd: 67.782516, 4th: 81.424866, 5th: 79.194199, 6th: 5.349398
+Avg. over all classes: 55.896374
+Train: 300, loss_min: 0.669818, loss_max: -0.316813, Top1 acc: 90.625000, Top5 acc: 100.000000
+Train: 302, loss_min: 0.713943, loss_max: -0.360751, Top1 acc: 95.312500, Top5 acc: 100.000000
+Train: 304, loss_min: 0.652949, loss_max: -0.264015, Top1 acc: 92.968750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.048741, Top1 acc: 66.143288, Top5 acc: 92.580582
+Acc. for each class: 1st: 83.790459,  2nd: 22.532373, 3rd: 70.277184, 4th: 78.232864, 5th: 79.961632, 6th: 6.987952
+Avg. over all classes: 56.963741
+Train: 306, loss_min: 0.700550, loss_max: -0.343122, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 308, loss_min: 0.685756, loss_max: -0.335589, Top1 acc: 91.406250, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.899224, Top1 acc: 67.982613, Top5 acc: 92.366631
+Acc. for each class: 1st: 86.286339,  2nd: 23.856115, 3rd: 70.895523, 4th: 81.049896, 5th: 81.539116, 6th: 6.987952
+Avg. over all classes: 58.435825
+Best accuracy till now: 67.982613
+Train: 310, loss_min: 0.692566, loss_max: -0.325370, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 312, loss_min: 0.701900, loss_max: -0.385011, Top1 acc: 93.750000, Top5 acc: 100.000000
+Train: 314, loss_min: 0.675213, loss_max: -0.300944, Top1 acc: 93.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.798264, Top1 acc: 68.489891, Top5 acc: 93.205193
+Acc. for each class: 1st: 86.478333,  2nd: 27.942446, 3rd: 72.963753, 4th: 79.002022, 5th: 82.626305, 6th: 10.024096
+Avg. over all classes: 59.839493
+Best accuracy till now: 68.489891
+Train: 316, loss_min: 0.707552, loss_max: -0.293853, Top1 acc: 89.843750, Top5 acc: 100.000000
+Train: 318, loss_min: 0.675249, loss_max: -0.328359, Top1 acc: 92.187500, Top5 acc: 99.218750
+                                    Test: 0, loss: 1.860404, Top1 acc: 68.179314, Top5 acc: 93.191391
+Acc. for each class: 1st: 87.191444,  2nd: 27.021584, 3rd: 70.916847, 4th: 79.453896, 5th: 82.434448, 6th: 8.771085
+Avg. over all classes: 59.298218
+Train: 320, loss_min: 0.688745, loss_max: -0.344267, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 322, loss_min: 0.694411, loss_max: -0.372189, Top1 acc: 93.750000, Top5 acc: 100.000000
+Train: 324, loss_min: 0.725293, loss_max: -0.396230, Top1 acc: 96.093750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.047498, Top1 acc: 66.495277, Top5 acc: 92.967079
+Acc. for each class: 1st: 85.600655,  2nd: 24.374102, 3rd: 68.976547, 4th: 77.271416, 5th: 82.221275, 6th: 8.289157
+Avg. over all classes: 57.788860
+Train: 326, loss_min: 0.648854, loss_max: -0.318105, Top1 acc: 90.625000, Top5 acc: 99.218750
+Train: 328, loss_min: 0.678322, loss_max: -0.324364, Top1 acc: 92.187500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.954739, Top1 acc: 67.478783, Top5 acc: 93.160332
+Acc. for each class: 1st: 86.423477,  2nd: 27.769785, 3rd: 71.300636, 4th: 77.492546, 5th: 82.818161, 6th: 7.180723
+Avg. over all classes: 58.830891
+Train: 330, loss_min: 0.634198, loss_max: -0.297562, Top1 acc: 92.187500, Top5 acc: 100.000000
+Train: 332, loss_min: 0.695014, loss_max: -0.347653, Top1 acc: 96.093750, Top5 acc: 100.000000
+Train: 334, loss_min: 0.689530, loss_max: -0.371582, Top1 acc: 94.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.018170, Top1 acc: 67.043968, Top5 acc: 92.563332
+Acc. for each class: 1st: 84.339005,  2nd: 23.625898, 3rd: 72.558632, 4th: 78.598213, 5th: 81.304626, 6th: 6.746988
+Avg. over all classes: 57.862225
+Train: 336, loss_min: 0.657329, loss_max: -0.321561, Top1 acc: 93.750000, Top5 acc: 100.000000
+Train: 338, loss_min: 0.640961, loss_max: -0.265806, Top1 acc: 89.062500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.953051, Top1 acc: 67.810066, Top5 acc: 92.839401
+Acc. for each class: 1st: 83.406471,  2nd: 25.956835, 3rd: 72.004265, 4th: 80.694160, 5th: 80.920914, 6th: 6.795181
+Avg. over all classes: 58.296307
+Train: 340, loss_min: 0.662444, loss_max: -0.311208, Top1 acc: 89.843750, Top5 acc: 100.000000
+Train: 342, loss_min: 0.657420, loss_max: -0.276521, Top1 acc: 91.406250, Top5 acc: 100.000000
+Train: 344, loss_min: 0.650063, loss_max: -0.287987, Top1 acc: 90.625000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.100817, Top1 acc: 66.854172, Top5 acc: 92.021538
+Acc. for each class: 1st: 83.132202,  2nd: 21.697842, 3rd: 68.230278, 4th: 82.165176, 5th: 79.236839, 6th: 6.024096
+Avg. over all classes: 56.747742
+Train: 346, loss_min: 0.617397, loss_max: -0.276636, Top1 acc: 90.625000, Top5 acc: 100.000000
+Train: 348, loss_min: 0.673865, loss_max: -0.298576, Top1 acc: 92.968750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.999792, Top1 acc: 67.533997, Top5 acc: 92.739326
+Acc. for each class: 1st: 84.585846,  2nd: 24.892086, 3rd: 71.407249, 4th: 79.838478, 5th: 81.688339, 6th: 6.554217
+Avg. over all classes: 58.161037
+Train: 350, loss_min: 0.669847, loss_max: -0.371341, Top1 acc: 96.093750, Top5 acc: 100.000000
+Train: 352, loss_min: 0.697392, loss_max: -0.371783, Top1 acc: 86.718750, Top5 acc: 100.000000
+Train: 354, loss_min: 0.629752, loss_max: -0.335728, Top1 acc: 95.312500, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.992498, Top1 acc: 67.451172, Top5 acc: 92.956726
+Acc. for each class: 1st: 84.311577,  2nd: 25.467627, 3rd: 70.021324, 4th: 79.703873, 5th: 82.157326, 6th: 7.662651
+Avg. over all classes: 58.220730
+Train: 356, loss_min: 0.597880, loss_max: -0.320293, Top1 acc: 93.750000, Top5 acc: 100.000000
+Train: 358, loss_min: 0.569999, loss_max: -0.273245, Top1 acc: 92.187500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.063009, Top1 acc: 67.275177, Top5 acc: 92.908417
+Acc. for each class: 1st: 84.942406,  2nd: 23.309353, 3rd: 70.255867, 4th: 79.540428, 5th: 82.434448, 6th: 7.373494
+Avg. over all classes: 57.976002
+Train: 360, loss_min: 0.664136, loss_max: -0.334804, Top1 acc: 90.625000, Top5 acc: 100.000000
+Train: 362, loss_min: 0.623031, loss_max: -0.284227, Top1 acc: 85.937500, Top5 acc: 98.437500
+Train: 364, loss_min: 0.632573, loss_max: -0.353356, Top1 acc: 92.187500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.027995, Top1 acc: 67.930847, Top5 acc: 92.963631
+Acc. for each class: 1st: 84.256721,  2nd: 24.834532, 3rd: 72.665245, 4th: 81.069130, 5th: 80.579834, 6th: 6.265060
+Avg. over all classes: 58.278423
+Train: 366, loss_min: 0.621417, loss_max: -0.318388, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 368, loss_min: 0.591131, loss_max: -0.263883, Top1 acc: 92.968750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.142745, Top1 acc: 66.961143, Top5 acc: 92.573677
+Acc. for each class: 1st: 85.326385,  2nd: 21.956835, 3rd: 70.234543, 4th: 81.290260, 5th: 77.808571, 6th: 6.313253
+Avg. over all classes: 57.154972
+Train: 370, loss_min: 0.653776, loss_max: -0.294605, Top1 acc: 89.062500, Top5 acc: 100.000000
+Train: 372, loss_min: 0.682397, loss_max: -0.387158, Top1 acc: 92.187500, Top5 acc: 100.000000
+Train: 374, loss_min: 0.644682, loss_max: -0.313938, Top1 acc: 85.156250, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.089619, Top1 acc: 67.140594, Top5 acc: 92.611641
+Acc. for each class: 1st: 86.176628,  2nd: 22.877697, 3rd: 69.317696, 4th: 80.021149, 5th: 80.302704, 6th: 8.578313
+Avg. over all classes: 57.879028
+Train: 376, loss_min: 0.615666, loss_max: -0.335064, Top1 acc: 89.062500, Top5 acc: 100.000000
+Train: 378, loss_min: 0.589755, loss_max: -0.290232, Top1 acc: 92.187500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.003149, Top1 acc: 68.075783, Top5 acc: 93.067162
+Acc. for each class: 1st: 85.792648,  2nd: 26.330935, 3rd: 70.383797, 4th: 79.992310, 5th: 82.903435, 6th: 8.385542
+Avg. over all classes: 58.964779
+Train: 380, loss_min: 0.616910, loss_max: -0.268583, Top1 acc: 86.718750, Top5 acc: 100.000000
+Train: 382, loss_min: 0.578999, loss_max: -0.257125, Top1 acc: 87.500000, Top5 acc: 99.218750
+Train: 384, loss_min: 0.590701, loss_max: -0.324782, Top1 acc: 93.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.012524, Top1 acc: 68.051628, Top5 acc: 92.670303
+Acc. for each class: 1st: 84.311577,  2nd: 23.194244, 3rd: 70.831558, 4th: 81.261414, 5th: 82.839478, 6th: 8.674699
+Avg. over all classes: 58.518829
+Train: 386, loss_min: 0.617932, loss_max: -0.324935, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 388, loss_min: 0.660579, loss_max: -0.383578, Top1 acc: 92.187500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.059554, Top1 acc: 67.389053, Top5 acc: 93.001595
+Acc. for each class: 1st: 83.461327,  2nd: 25.985611, 3rd: 70.724945, 4th: 78.444382, 5th: 83.436371, 6th: 9.253012
+Avg. over all classes: 58.550945
+Train: 390, loss_min: 0.621430, loss_max: -0.352078, Top1 acc: 89.843750, Top5 acc: 100.000000
+Train: 392, loss_min: 0.572460, loss_max: -0.258358, Top1 acc: 94.531250, Top5 acc: 100.000000
+Train: 394, loss_min: 0.594559, loss_max: -0.337859, Top1 acc: 89.843750, Top5 acc: 100.000000
+                                    Test: 0, loss: 1.967887, Top1 acc: 68.455383, Top5 acc: 92.973984
+Acc. for each class: 1st: 87.246300,  2nd: 25.553957, 3rd: 72.068230, 4th: 78.588600, 5th: 85.632065, 6th: 9.493976
+Avg. over all classes: 59.763859
+Train: 396, loss_min: 0.587036, loss_max: -0.257014, Top1 acc: 87.500000, Top5 acc: 100.000000
+Train: 398, loss_min: 0.563547, loss_max: -0.293345, Top1 acc: 91.406250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.087398, Top1 acc: 67.513290, Top5 acc: 92.918770
+Acc. for each class: 1st: 83.625893,  2nd: 25.208633, 3rd: 72.878464, 4th: 78.771271, 5th: 81.816246, 6th: 9.156627
+Avg. over all classes: 58.576187
+Train: 400, loss_min: 0.638958, loss_max: -0.408341, Top1 acc: 92.187500, Top5 acc: 100.000000
+Train: 402, loss_min: 0.583466, loss_max: -0.272257, Top1 acc: 89.843750, Top5 acc: 100.000000
+Train: 404, loss_min: 0.612933, loss_max: -0.332084, Top1 acc: 86.718750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.084653, Top1 acc: 67.444267, Top5 acc: 93.129272
+Acc. for each class: 1st: 84.914978,  2nd: 27.107914, 3rd: 70.085289, 4th: 78.425148, 5th: 82.946068, 6th: 8.240964
+Avg. over all classes: 58.620060
+Train: 406, loss_min: 0.560682, loss_max: -0.306872, Top1 acc: 89.062500, Top5 acc: 100.000000
+Train: 408, loss_min: 0.562279, loss_max: -0.268642, Top1 acc: 88.281250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.087667, Top1 acc: 67.848022, Top5 acc: 92.929123
+Acc. for each class: 1st: 86.533188,  2nd: 26.503597, 3rd: 69.936035, 4th: 79.309685, 5th: 83.180557, 6th: 7.421687
+Avg. over all classes: 58.814129
+Train: 410, loss_min: 0.586729, loss_max: -0.293114, Top1 acc: 86.718750, Top5 acc: 100.000000
+Train: 412, loss_min: 0.591720, loss_max: -0.347402, Top1 acc: 88.281250, Top5 acc: 100.000000
+Train: 414, loss_min: 0.533028, loss_max: -0.275314, Top1 acc: 91.406250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.096156, Top1 acc: 68.079239, Top5 acc: 92.894615
+Acc. for each class: 1st: 84.339005,  2nd: 26.417267, 3rd: 71.471214, 4th: 79.588501, 5th: 84.502235, 6th: 6.795181
+Avg. over all classes: 58.852230
+Train: 416, loss_min: 0.561020, loss_max: -0.350606, Top1 acc: 90.625000, Top5 acc: 100.000000
+Train: 418, loss_min: 0.542492, loss_max: -0.258512, Top1 acc: 93.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.056043, Top1 acc: 67.917046, Top5 acc: 93.301819
+Acc. for each class: 1st: 85.765221,  2nd: 27.856115, 3rd: 70.511726, 4th: 77.915588, 5th: 84.736732, 6th: 9.638555
+Avg. over all classes: 59.403988
+Train: 420, loss_min: 0.568362, loss_max: -0.255426, Top1 acc: 89.062500, Top5 acc: 99.218750
+Train: 422, loss_min: 0.561369, loss_max: -0.328689, Top1 acc: 93.750000, Top5 acc: 99.218750
+Train: 424, loss_min: 0.585735, loss_max: -0.403467, Top1 acc: 91.406250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.062483, Top1 acc: 67.968803, Top5 acc: 93.263863
+Acc. for each class: 1st: 86.972023,  2nd: 26.158274, 3rd: 69.573563, 4th: 78.463608, 5th: 84.331696, 6th: 11.373494
+Avg. over all classes: 59.478779
+Train: 426, loss_min: 0.572635, loss_max: -0.373821, Top1 acc: 88.281250, Top5 acc: 100.000000
+Train: 428, loss_min: 0.566819, loss_max: -0.231847, Top1 acc: 88.281250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.189442, Top1 acc: 66.957695, Top5 acc: 92.766930
+Acc. for each class: 1st: 85.628082,  2nd: 24.000000, 3rd: 69.147125, 4th: 78.213631, 5th: 83.223190, 6th: 7.951807
+Avg. over all classes: 58.027309
+Train: 430, loss_min: 0.560864, loss_max: -0.333219, Top1 acc: 91.406250, Top5 acc: 100.000000
+Train: 432, loss_min: 0.569983, loss_max: -0.301646, Top1 acc: 90.625000, Top5 acc: 100.000000
+Train: 434, loss_min: 0.602272, loss_max: -0.306555, Top1 acc: 90.625000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.095602, Top1 acc: 68.027473, Top5 acc: 93.481262
+Acc. for each class: 1st: 85.463524,  2nd: 26.503597, 3rd: 69.829422, 4th: 79.925011, 5th: 82.903435, 6th: 9.590362
+Avg. over all classes: 59.035892
+Train: 436, loss_min: 0.525035, loss_max: -0.297328, Top1 acc: 89.843750, Top5 acc: 99.218750
+Train: 438, loss_min: 0.531206, loss_max: -0.328668, Top1 acc: 88.281250, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.014786, Top1 acc: 68.393265, Top5 acc: 93.829803
+Acc. for each class: 1st: 86.423477,  2nd: 27.769785, 3rd: 72.750534, 4th: 78.559753, 5th: 82.008102, 6th: 13.156627
+Avg. over all classes: 60.111378
+Train: 440, loss_min: 0.520372, loss_max: -0.301061, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 442, loss_min: 0.557420, loss_max: -0.337537, Top1 acc: 90.625000, Top5 acc: 100.000000
+Train: 444, loss_min: 0.569940, loss_max: -0.309325, Top1 acc: 90.625000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.103272, Top1 acc: 68.300095, Top5 acc: 93.229347
+Acc. for each class: 1st: 86.533188,  2nd: 24.863310, 3rd: 69.509598, 4th: 81.155655, 5th: 82.541039, 6th: 9.638555
+Avg. over all classes: 59.040226
+Train: 446, loss_min: 0.563418, loss_max: -0.379576, Top1 acc: 89.843750, Top5 acc: 100.000000
+Train: 448, loss_min: 0.559752, loss_max: -0.439843, Top1 acc: 90.625000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.101532, Top1 acc: 68.200020, Top5 acc: 93.205193
+Acc. for each class: 1st: 84.256721,  2nd: 26.705036, 3rd: 69.296371, 4th: 81.251801, 5th: 82.711578, 6th: 8.771085
+Avg. over all classes: 58.832104
+Train: 450, loss_min: 0.480785, loss_max: -0.358510, Top1 acc: 90.625000, Top5 acc: 99.218750
+Train: 452, loss_min: 0.506952, loss_max: -0.336067, Top1 acc: 92.187500, Top5 acc: 100.000000
+Train: 454, loss_min: 0.569060, loss_max: -0.396832, Top1 acc: 88.281250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.119675, Top1 acc: 68.155151, Top5 acc: 93.332878
+Acc. for each class: 1st: 83.625893,  2nd: 26.129496, 3rd: 67.078888, 4th: 82.203636, 5th: 83.670860, 6th: 8.289157
+Avg. over all classes: 58.499653
+Train: 456, loss_min: 0.582578, loss_max: -0.427927, Top1 acc: 90.625000, Top5 acc: 99.218750
+Train: 458, loss_min: 0.546974, loss_max: -0.404616, Top1 acc: 89.062500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.126906, Top1 acc: 68.203468, Top5 acc: 93.439857
+Acc. for each class: 1st: 85.079536,  2nd: 25.007195, 3rd: 69.594879, 4th: 80.924911, 5th: 83.287148, 6th: 9.879519
+Avg. over all classes: 58.962193
+Train: 460, loss_min: 0.502988, loss_max: -0.316268, Top1 acc: 89.062500, Top5 acc: 99.218750
+Train: 462, loss_min: 0.543634, loss_max: -0.346770, Top1 acc: 91.406250, Top5 acc: 100.000000
+Train: 464, loss_min: 0.525509, loss_max: -0.349319, Top1 acc: 89.062500, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.140991, Top1 acc: 67.975708, Top5 acc: 93.488167
+Acc. for each class: 1st: 85.134392,  2nd: 26.647482, 3rd: 68.550110, 4th: 81.299873, 5th: 80.856956, 6th: 9.831326
+Avg. over all classes: 58.720028
+Train: 466, loss_min: 0.569857, loss_max: -0.351400, Top1 acc: 92.187500, Top5 acc: 99.218750
+Train: 468, loss_min: 0.584508, loss_max: -0.451541, Top1 acc: 89.062500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.093913, Top1 acc: 68.693497, Top5 acc: 93.615852
+Acc. for each class: 1st: 85.929787,  2nd: 28.057554, 3rd: 69.552238, 4th: 81.290260, 5th: 82.796844, 6th: 9.493976
+Avg. over all classes: 59.520111
+Best accuracy till now: 68.693497
+Train: 470, loss_min: 0.502283, loss_max: -0.300570, Top1 acc: 85.937500, Top5 acc: 100.000000
+Train: 472, loss_min: 0.547938, loss_max: -0.376429, Top1 acc: 85.156250, Top5 acc: 100.000000
+Train: 474, loss_min: 0.515218, loss_max: -0.304823, Top1 acc: 88.281250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.078666, Top1 acc: 69.083443, Top5 acc: 93.588242
+Acc. for each class: 1st: 86.697754,  2nd: 25.697842, 3rd: 73.667374, 4th: 79.886551, 5th: 84.182480, 6th: 12.144578
+Avg. over all classes: 60.379436
+Best accuracy till now: 69.083443
+Train: 476, loss_min: 0.550557, loss_max: -0.450421, Top1 acc: 90.625000, Top5 acc: 99.218750
+Train: 478, loss_min: 0.541056, loss_max: -0.340064, Top1 acc: 86.718750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.112645, Top1 acc: 68.427773, Top5 acc: 93.684868
+Acc. for each class: 1st: 86.149208,  2nd: 28.690647, 3rd: 71.087418, 4th: 79.194305, 5th: 83.031334, 6th: 10.843373
+Avg. over all classes: 59.832718
+Train: 480, loss_min: 0.538294, loss_max: -0.396427, Top1 acc: 93.750000, Top5 acc: 100.000000
+Train: 482, loss_min: 0.567213, loss_max: -0.457284, Top1 acc: 87.500000, Top5 acc: 100.000000
+Train: 484, loss_min: 0.536528, loss_max: -0.300612, Top1 acc: 85.156250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.177427, Top1 acc: 67.854927, Top5 acc: 93.819450
+Acc. for each class: 1st: 82.583656,  2nd: 27.136690, 3rd: 69.573563, 4th: 79.290451, 5th: 84.203796, 6th: 12.000000
+Avg. over all classes: 59.131359
+Train: 486, loss_min: 0.485939, loss_max: -0.352217, Top1 acc: 92.968750, Top5 acc: 100.000000
+Train: 488, loss_min: 0.527711, loss_max: -0.389419, Top1 acc: 86.718750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.038839, Top1 acc: 68.866035, Top5 acc: 94.092072
+Acc. for each class: 1st: 84.201866,  2nd: 30.273382, 3rd: 73.496803, 4th: 77.742523, 5th: 85.269669, 6th: 14.506024
+Avg. over all classes: 60.915043
+Train: 490, loss_min: 0.463830, loss_max: -0.329679, Top1 acc: 89.843750, Top5 acc: 100.000000
+Train: 492, loss_min: 0.507820, loss_max: -0.304417, Top1 acc: 85.156250, Top5 acc: 100.000000
+Train: 494, loss_min: 0.511161, loss_max: -0.396811, Top1 acc: 86.718750, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.206133, Top1 acc: 67.872185, Top5 acc: 93.840157
+Acc. for each class: 1st: 83.982445,  2nd: 27.021584, 3rd: 67.078888, 4th: 79.376984, 5th: 85.610741, 6th: 12.000000
+Avg. over all classes: 59.178440
+Train: 496, loss_min: 0.466575, loss_max: -0.379398, Top1 acc: 88.281250, Top5 acc: 100.000000
+Train: 498, loss_min: 0.471257, loss_max: -0.308311, Top1 acc: 87.500000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.188289, Top1 acc: 67.844574, Top5 acc: 93.947136
+Acc. for each class: 1st: 84.009872,  2nd: 27.107914, 3rd: 66.759064, 4th: 79.107780, 5th: 85.099129, 6th: 14.650602
+Avg. over all classes: 59.455723
+Train: 500, loss_min: 0.503325, loss_max: -0.326685, Top1 acc: 89.062500, Top5 acc: 99.218750
+Train: 502, loss_min: 0.499060, loss_max: -0.332700, Top1 acc: 85.937500, Top5 acc: 100.000000
+Train: 504, loss_min: 0.471325, loss_max: -0.321112, Top1 acc: 89.062500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.290757, Top1 acc: 67.181999, Top5 acc: 93.736633
+Acc. for each class: 1st: 84.887550,  2nd: 26.100719, 3rd: 63.710022, 4th: 79.501968, 5th: 85.056488, 6th: 10.554217
+Avg. over all classes: 58.301830
+Train: 506, loss_min: 0.515558, loss_max: -0.441930, Top1 acc: 85.937500, Top5 acc: 100.000000
+Train: 508, loss_min: 0.501117, loss_max: -0.452792, Top1 acc: 91.406250, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.209154, Top1 acc: 68.472641, Top5 acc: 93.819450
+Acc. for each class: 1st: 85.271530,  2nd: 26.446043, 3rd: 64.136459, 4th: 82.665131, 5th: 84.672775, 6th: 11.373494
+Avg. over all classes: 59.094242
+Train: 510, loss_min: 0.481770, loss_max: -0.446561, Top1 acc: 90.625000, Top5 acc: 100.000000
+Train: 512, loss_min: 0.481908, loss_max: -0.408175, Top1 acc: 91.406250, Top5 acc: 100.000000
+Train: 514, loss_min: 0.454852, loss_max: -0.335235, Top1 acc: 91.406250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.124900, Top1 acc: 69.104149, Top5 acc: 93.843613
+Acc. for each class: 1st: 85.326385,  2nd: 28.345324, 3rd: 68.315567, 4th: 82.194023, 5th: 84.054573, 6th: 11.228915
+Avg. over all classes: 59.910797
+Best accuracy till now: 69.104149
+Train: 516, loss_min: 0.481163, loss_max: -0.348956, Top1 acc: 83.593750, Top5 acc: 100.000000
+Train: 518, loss_min: 0.526743, loss_max: -0.426442, Top1 acc: 90.625000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.164353, Top1 acc: 69.166267, Top5 acc: 94.071365
+Acc. for each class: 1st: 85.765221,  2nd: 27.625898, 3rd: 68.592751, 4th: 82.184402, 5th: 84.033257, 6th: 12.000000
+Avg. over all classes: 60.033588
+Best accuracy till now: 69.166267
+Train: 520, loss_min: 0.435073, loss_max: -0.371462, Top1 acc: 88.281250, Top5 acc: 100.000000
+Train: 522, loss_min: 0.470723, loss_max: -0.320653, Top1 acc: 83.593750, Top5 acc: 100.000000
+Train: 524, loss_min: 0.466297, loss_max: -0.378358, Top1 acc: 87.500000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.154215, Top1 acc: 68.824631, Top5 acc: 94.061012
+Acc. for each class: 1st: 83.488754,  2nd: 26.906475, 3rd: 67.036247, 4th: 81.867126, 5th: 86.228951, 6th: 12.578313
+Avg. over all classes: 59.684311
+Train: 526, loss_min: 0.424230, loss_max: -0.314102, Top1 acc: 82.812500, Top5 acc: 100.000000
+Train: 528, loss_min: 0.498653, loss_max: -0.384086, Top1 acc: 83.593750, Top5 acc: 98.437500
+                                    Test: 0, loss: 2.177852, Top1 acc: 68.641731, Top5 acc: 94.243912
+Acc. for each class: 1st: 84.256721,  2nd: 29.237410, 3rd: 68.251602, 4th: 81.597923, 5th: 82.498398, 6th: 11.807229
+Avg. over all classes: 59.608212
+Train: 530, loss_min: 0.424812, loss_max: -0.306490, Top1 acc: 82.812500, Top5 acc: 100.000000
+Train: 532, loss_min: 0.476274, loss_max: -0.403494, Top1 acc: 89.062500, Top5 acc: 99.218750
+Train: 534, loss_min: 0.495283, loss_max: -0.504682, Top1 acc: 84.375000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.187696, Top1 acc: 68.583069, Top5 acc: 94.140388
+Acc. for each class: 1st: 85.710365,  2nd: 30.388489, 3rd: 66.801704, 4th: 79.761559, 5th: 85.823921, 6th: 11.469879
+Avg. over all classes: 59.992649
+Train: 536, loss_min: 0.490755, loss_max: -0.450468, Top1 acc: 89.062500, Top5 acc: 100.000000
+Train: 538, loss_min: 0.456890, loss_max: -0.395786, Top1 acc: 89.062500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.298769, Top1 acc: 67.992966, Top5 acc: 94.116234
+Acc. for each class: 1st: 84.695557,  2nd: 29.726618, 3rd: 66.865669, 4th: 79.040474, 5th: 84.630142, 6th: 12.289157
+Avg. over all classes: 59.541264
+Train: 540, loss_min: 0.503296, loss_max: -0.435008, Top1 acc: 87.500000, Top5 acc: 100.000000
+Train: 542, loss_min: 0.456013, loss_max: -0.509220, Top1 acc: 85.937500, Top5 acc: 100.000000
+Train: 544, loss_min: 0.432998, loss_max: -0.353063, Top1 acc: 85.937500, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.339405, Top1 acc: 67.692734, Top5 acc: 94.209404
+Acc. for each class: 1st: 84.887550,  2nd: 29.697842, 3rd: 63.390190, 4th: 80.607635, 5th: 82.732895, 6th: 12.096386
+Avg. over all classes: 58.902081
+Train: 546, loss_min: 0.504357, loss_max: -0.425379, Top1 acc: 82.031250, Top5 acc: 99.218750
+Train: 548, loss_min: 0.508591, loss_max: -0.582314, Top1 acc: 85.937500, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.285125, Top1 acc: 67.609917, Top5 acc: 94.513084
+Acc. for each class: 1st: 82.035110,  2nd: 31.798561, 3rd: 66.204689, 4th: 78.703972, 5th: 83.606903, 6th: 13.638555
+Avg. over all classes: 59.331299
+Train: 550, loss_min: 0.452289, loss_max: -0.423148, Top1 acc: 87.500000, Top5 acc: 100.000000
+Train: 552, loss_min: 0.487260, loss_max: -0.515509, Top1 acc: 78.906250, Top5 acc: 100.000000
+Train: 554, loss_min: 0.466468, loss_max: -0.511996, Top1 acc: 85.156250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.289548, Top1 acc: 68.055077, Top5 acc: 94.205956
+Acc. for each class: 1st: 83.433899,  2nd: 29.323742, 3rd: 66.353943, 4th: 80.953758, 5th: 82.988701, 6th: 11.325301
+Avg. over all classes: 59.063221
+Train: 556, loss_min: 0.457792, loss_max: -0.449499, Top1 acc: 80.468750, Top5 acc: 100.000000
+Train: 558, loss_min: 0.466214, loss_max: -0.475399, Top1 acc: 85.156250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.290851, Top1 acc: 68.137901, Top5 acc: 93.943687
+Acc. for each class: 1st: 86.121780,  2nd: 26.877697, 3rd: 65.927505, 4th: 79.905777, 5th: 85.099129, 6th: 13.301205
+Avg. over all classes: 59.538849
+Train: 560, loss_min: 0.468573, loss_max: -0.440928, Top1 acc: 85.156250, Top5 acc: 100.000000
+Train: 562, loss_min: 0.477577, loss_max: -0.517230, Top1 acc: 82.812500, Top5 acc: 100.000000
+Train: 564, loss_min: 0.508694, loss_max: -0.399160, Top1 acc: 73.437500, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.314671, Top1 acc: 68.168961, Top5 acc: 93.764236
+Acc. for each class: 1st: 85.298958,  2nd: 25.496403, 3rd: 64.541580, 4th: 81.674835, 5th: 84.566193, 6th: 12.963856
+Avg. over all classes: 59.090305
+Train: 566, loss_min: 0.452275, loss_max: -0.430118, Top1 acc: 87.500000, Top5 acc: 100.000000
+Train: 568, loss_min: 0.436426, loss_max: -0.449501, Top1 acc: 86.718750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.328233, Top1 acc: 68.172409, Top5 acc: 94.254265
+Acc. for each class: 1st: 83.488754,  2nd: 27.712231, 3rd: 67.121536, 4th: 79.809631, 5th: 85.141762, 6th: 14.698795
+Avg. over all classes: 59.662113
+Train: 570, loss_min: 0.435534, loss_max: -0.518304, Top1 acc: 88.281250, Top5 acc: 100.000000
+Train: 572, loss_min: 0.449827, loss_max: -0.484039, Top1 acc: 85.937500, Top5 acc: 99.218750
+Train: 574, loss_min: 0.448449, loss_max: -0.560084, Top1 acc: 86.718750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.287106, Top1 acc: 68.327698, Top5 acc: 94.181801
+Acc. for each class: 1st: 82.419090,  2nd: 28.920864, 3rd: 66.716415, 4th: 81.424866, 5th: 83.692177, 6th: 12.819277
+Avg. over all classes: 59.332111
+Train: 576, loss_min: 0.490113, loss_max: -0.478692, Top1 acc: 85.156250, Top5 acc: 100.000000
+Train: 578, loss_min: 0.424391, loss_max: -0.394424, Top1 acc: 83.593750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.249232, Top1 acc: 68.703850, Top5 acc: 94.140388
+Acc. for each class: 1st: 85.792648,  2nd: 28.345324, 3rd: 69.296371, 4th: 79.876938, 5th: 84.544876, 6th: 13.108434
+Avg. over all classes: 60.160763
+Train: 580, loss_min: 0.401549, loss_max: -0.461462, Top1 acc: 90.625000, Top5 acc: 100.000000
+Train: 582, loss_min: 0.404163, loss_max: -0.438241, Top1 acc: 85.937500, Top5 acc: 100.000000
+Train: 584, loss_min: 0.466487, loss_max: -0.529178, Top1 acc: 81.250000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.293577, Top1 acc: 68.407074, Top5 acc: 94.347443
+Acc. for each class: 1st: 83.077347,  2nd: 27.625898, 3rd: 69.808105, 4th: 80.261513, 5th: 83.436371, 6th: 14.361445
+Avg. over all classes: 59.761780
+Train: 586, loss_min: 0.428958, loss_max: -0.475423, Top1 acc: 82.812500, Top5 acc: 100.000000
+Train: 588, loss_min: 0.467899, loss_max: -0.472996, Top1 acc: 84.375000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.397766, Top1 acc: 68.127548, Top5 acc: 94.161095
+Acc. for each class: 1st: 85.381241,  2nd: 27.482014, 3rd: 66.375267, 4th: 80.357658, 5th: 83.457687, 6th: 13.879519
+Avg. over all classes: 59.488903
+Train: 590, loss_min: 0.446249, loss_max: -0.470310, Top1 acc: 83.593750, Top5 acc: 100.000000
+Train: 592, loss_min: 0.410526, loss_max: -0.417586, Top1 acc: 89.843750, Top5 acc: 100.000000
+Train: 594, loss_min: 0.487688, loss_max: -0.524379, Top1 acc: 83.593750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.473846, Top1 acc: 67.634071, Top5 acc: 94.057564
+Acc. for each class: 1st: 82.473946,  2nd: 25.064749, 3rd: 62.857143, 4th: 81.751755, 5th: 85.077812, 6th: 13.445783
+Avg. over all classes: 58.445194
+Train: 596, loss_min: 0.466250, loss_max: -0.402001, Top1 acc: 83.593750, Top5 acc: 100.000000
+Train: 598, loss_min: 0.467121, loss_max: -0.525564, Top1 acc: 80.468750, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.231730, Top1 acc: 69.345711, Top5 acc: 93.967842
+Acc. for each class: 1st: 85.765221,  2nd: 26.618706, 3rd: 68.102348, 4th: 81.021057, 5th: 88.211472, 6th: 13.686747
+Avg. over all classes: 60.567593
+Best accuracy till now: 69.345711
+Train: 600, loss_min: 0.427204, loss_max: -0.495064, Top1 acc: 79.687500, Top5 acc: 98.437500
+Train: 602, loss_min: 0.427118, loss_max: -0.459987, Top1 acc: 86.718750, Top5 acc: 100.000000
+Train: 604, loss_min: 0.447137, loss_max: -0.471273, Top1 acc: 73.437500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.309269, Top1 acc: 68.772865, Top5 acc: 94.095528
+Acc. for each class: 1st: 85.573235,  2nd: 27.366907, 3rd: 67.739876, 4th: 79.732719, 5th: 87.422722, 6th: 13.831326
+Avg. over all classes: 60.277802
+Train: 606, loss_min: 0.429983, loss_max: -0.370362, Top1 acc: 78.906250, Top5 acc: 100.000000
+Train: 608, loss_min: 0.447013, loss_max: -0.532695, Top1 acc: 81.250000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.484658, Top1 acc: 67.544350, Top5 acc: 94.157639
+Acc. for each class: 1st: 83.296761,  2nd: 27.280575, 3rd: 65.884865, 4th: 80.501877, 5th: 82.285225, 6th: 12.771085
+Avg. over all classes: 58.670059
+Train: 610, loss_min: 0.411123, loss_max: -0.445755, Top1 acc: 76.562500, Top5 acc: 100.000000
+Train: 612, loss_min: 0.421126, loss_max: -0.564848, Top1 acc: 77.343750, Top5 acc: 100.000000
+Train: 614, loss_min: 0.432422, loss_max: -0.545647, Top1 acc: 78.125000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.457474, Top1 acc: 67.951553, Top5 acc: 93.998901
+Acc. for each class: 1st: 84.860123,  2nd: 26.474821, 3rd: 67.313431, 4th: 79.444283, 5th: 84.885948, 6th: 13.253012
+Avg. over all classes: 59.371937
+Train: 616, loss_min: 0.385747, loss_max: -0.440902, Top1 acc: 77.343750, Top5 acc: 100.000000
+Train: 618, loss_min: 0.434230, loss_max: -0.485436, Top1 acc: 82.812500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.396368, Top1 acc: 68.779770, Top5 acc: 94.199051
+Acc. for each class: 1st: 86.121780,  2nd: 28.402878, 3rd: 67.718552, 4th: 79.876938, 5th: 86.101044, 6th: 13.542169
+Avg. over all classes: 60.293896
+Train: 620, loss_min: 0.376034, loss_max: -0.421204, Top1 acc: 85.937500, Top5 acc: 100.000000
+Train: 622, loss_min: 0.390934, loss_max: -0.636290, Top1 acc: 81.250000, Top5 acc: 99.218750
+Train: 624, loss_min: 0.415561, loss_max: -0.511930, Top1 acc: 85.937500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.389719, Top1 acc: 68.517502, Top5 acc: 94.492378
+Acc. for each class: 1st: 82.419090,  2nd: 30.014389, 3rd: 66.481873, 4th: 81.232574, 5th: 83.969299, 6th: 14.506024
+Avg. over all classes: 59.770538
+Train: 626, loss_min: 0.407082, loss_max: -0.385237, Top1 acc: 75.781250, Top5 acc: 100.000000
+Train: 628, loss_min: 0.439103, loss_max: -0.428803, Top1 acc: 82.031250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.413660, Top1 acc: 68.586517, Top5 acc: 94.257713
+Acc. for each class: 1st: 81.376854,  2nd: 25.323742, 3rd: 67.121536, 4th: 83.443901, 5th: 82.775528, 6th: 15.325301
+Avg. over all classes: 59.227810
+Train: 630, loss_min: 0.466110, loss_max: -0.787075, Top1 acc: 82.031250, Top5 acc: 100.000000
+Train: 632, loss_min: 0.398212, loss_max: -0.561445, Top1 acc: 81.250000, Top5 acc: 100.000000
+Train: 634, loss_min: 0.382495, loss_max: -0.519369, Top1 acc: 78.125000, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.370784, Top1 acc: 68.928154, Top5 acc: 94.695984
+Acc. for each class: 1st: 84.366432,  2nd: 29.093525, 3rd: 70.533051, 4th: 80.174980, 5th: 83.777443, 6th: 14.939759
+Avg. over all classes: 60.480865
+Train: 636, loss_min: 0.415399, loss_max: -0.621229, Top1 acc: 74.218750, Top5 acc: 100.000000
+Train: 638, loss_min: 0.416487, loss_max: -0.593740, Top1 acc: 84.375000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.312376, Top1 acc: 69.594177, Top5 acc: 94.343987
+Acc. for each class: 1st: 84.558418,  2nd: 29.179855, 3rd: 70.362473, 4th: 81.396019, 5th: 84.843315, 6th: 15.614458
+Avg. over all classes: 60.992428
+Best accuracy till now: 69.594177
+Train: 640, loss_min: 0.402915, loss_max: -0.555495, Top1 acc: 85.937500, Top5 acc: 100.000000
+Train: 642, loss_min: 0.397809, loss_max: -0.525889, Top1 acc: 81.250000, Top5 acc: 100.000000
+Train: 644, loss_min: 0.413886, loss_max: -0.613986, Top1 acc: 76.562500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.163770, Top1 acc: 70.636345, Top5 acc: 94.544144
+Acc. for each class: 1st: 87.767418,  2nd: 31.568346, 3rd: 72.665245, 4th: 79.559654, 5th: 87.166916, 6th: 19.277109
+Avg. over all classes: 63.000782
+Best accuracy till now: 70.636345
+Train: 646, loss_min: 0.469169, loss_max: -0.606111, Top1 acc: 82.031250, Top5 acc: 100.000000
+Train: 648, loss_min: 0.452672, loss_max: -0.547878, Top1 acc: 82.031250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.234962, Top1 acc: 70.612190, Top5 acc: 94.319832
+Acc. for each class: 1st: 84.805267,  2nd: 27.568346, 3rd: 70.703629, 4th: 83.001633, 5th: 87.870392, 6th: 16.433735
+Avg. over all classes: 61.730499
+Train: 650, loss_min: 0.435266, loss_max: -0.576302, Top1 acc: 78.906250, Top5 acc: 100.000000
+Train: 652, loss_min: 0.387744, loss_max: -0.503281, Top1 acc: 78.125000, Top5 acc: 100.000000
+Train: 654, loss_min: 0.363556, loss_max: -0.515053, Top1 acc: 84.375000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.437019, Top1 acc: 69.428535, Top5 acc: 93.650360
+Acc. for each class: 1st: 84.695557,  2nd: 22.705036, 3rd: 66.908318, 4th: 84.636093, 5th: 84.949905, 6th: 15.228915
+Avg. over all classes: 59.853970
+Train: 656, loss_min: 0.372065, loss_max: -0.498792, Top1 acc: 78.125000, Top5 acc: 100.000000
+Train: 658, loss_min: 0.414634, loss_max: -0.572239, Top1 acc: 79.687500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.480310, Top1 acc: 69.066193, Top5 acc: 94.067917
+Acc. for each class: 1st: 86.423477,  2nd: 25.064749, 3rd: 67.590622, 4th: 81.982498, 5th: 85.461525, 6th: 13.783133
+Avg. over all classes: 60.050999
+Train: 660, loss_min: 0.466018, loss_max: -0.719090, Top1 acc: 81.250000, Top5 acc: 100.000000
+Train: 662, loss_min: 0.361064, loss_max: -0.596614, Top1 acc: 76.562500, Top5 acc: 99.218750
+Train: 664, loss_min: 0.366324, loss_max: -0.537691, Top1 acc: 78.125000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.193335, Top1 acc: 70.767479, Top5 acc: 94.637314
+Acc. for each class: 1st: 87.465714,  2nd: 32.460430, 3rd: 72.110878, 4th: 79.790405, 5th: 88.062248, 6th: 18.216867
+Avg. over all classes: 63.017757
+Best accuracy till now: 70.767479
+Train: 666, loss_min: 0.421919, loss_max: -0.738816, Top1 acc: 84.375000, Top5 acc: 100.000000
+Train: 668, loss_min: 0.373290, loss_max: -0.611655, Top1 acc: 75.781250, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.415351, Top1 acc: 69.211128, Top5 acc: 94.482025
+Acc. for each class: 1st: 85.847504,  2nd: 30.158274, 3rd: 69.381660, 4th: 79.800018, 5th: 84.651459, 6th: 17.012049
+Avg. over all classes: 61.141827
+Train: 670, loss_min: 0.401110, loss_max: -0.668656, Top1 acc: 80.468750, Top5 acc: 100.000000
+Train: 672, loss_min: 0.385573, loss_max: -0.673671, Top1 acc: 85.937500, Top5 acc: 100.000000
+Train: 674, loss_min: 0.412267, loss_max: -0.623470, Top1 acc: 77.343750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.364801, Top1 acc: 69.756371, Top5 acc: 94.530334
+Acc. for each class: 1st: 86.094353,  2nd: 28.460432, 3rd: 69.552238, 4th: 81.088356, 5th: 85.717331, 6th: 17.783133
+Avg. over all classes: 61.449310
+Train: 676, loss_min: 0.391909, loss_max: -0.643914, Top1 acc: 82.031250, Top5 acc: 100.000000
+Train: 678, loss_min: 0.394789, loss_max: -0.643491, Top1 acc: 76.562500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.295946, Top1 acc: 70.581131, Top5 acc: 94.689079
+Acc. for each class: 1st: 85.957214,  2nd: 29.697842, 3rd: 71.471214, 4th: 81.982498, 5th: 86.399490, 6th: 17.108435
+Avg. over all classes: 62.102779
+Train: 680, loss_min: 0.376099, loss_max: -0.545455, Top1 acc: 85.937500, Top5 acc: 100.000000
+Train: 682, loss_min: 0.401044, loss_max: -0.691189, Top1 acc: 86.718750, Top5 acc: 99.218750
+Train: 684, loss_min: 0.385479, loss_max: -0.614047, Top1 acc: 81.250000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.402152, Top1 acc: 70.046242, Top5 acc: 94.323280
+Acc. for each class: 1st: 86.204056,  2nd: 26.215828, 3rd: 72.942429, 4th: 80.155754, 5th: 86.719246, 6th: 20.144579
+Avg. over all classes: 62.063648
+Train: 686, loss_min: 0.401891, loss_max: -0.682149, Top1 acc: 76.562500, Top5 acc: 99.218750
+Train: 688, loss_min: 0.373173, loss_max: -0.669903, Top1 acc: 82.031250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.546124, Top1 acc: 69.249092, Top5 acc: 94.212852
+Acc. for each class: 1st: 85.710365,  2nd: 24.230215, 3rd: 72.452026, 4th: 80.146141, 5th: 84.779366, 6th: 18.746988
+Avg. over all classes: 61.010849
+Train: 690, loss_min: 0.461894, loss_max: -0.711496, Top1 acc: 79.687500, Top5 acc: 100.000000
+Train: 692, loss_min: 0.428068, loss_max: -0.560397, Top1 acc: 75.781250, Top5 acc: 100.000000
+Train: 694, loss_min: 0.391682, loss_max: -0.611115, Top1 acc: 77.343750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.442947, Top1 acc: 69.818489, Top5 acc: 94.523438
+Acc. for each class: 1st: 86.834885,  2nd: 27.107914, 3rd: 71.066101, 4th: 79.867317, 5th: 85.909187, 6th: 21.879519
+Avg. over all classes: 62.110821
+Train: 696, loss_min: 0.325793, loss_max: -0.613407, Top1 acc: 82.031250, Top5 acc: 100.000000
+Train: 698, loss_min: 0.403326, loss_max: -0.624217, Top1 acc: 80.468750, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.527280, Top1 acc: 68.634827, Top5 acc: 94.464767
+Acc. for each class: 1st: 85.161819,  2nd: 30.762590, 3rd: 66.375267, 4th: 77.261803, 5th: 87.230865, 6th: 22.843374
+Avg. over all classes: 61.605957
+Train: 700, loss_min: 0.361268, loss_max: -0.637332, Top1 acc: 72.656250, Top5 acc: 100.000000
+Train: 702, loss_min: 0.400035, loss_max: -0.688385, Top1 acc: 73.437500, Top5 acc: 99.218750
+Train: 704, loss_min: 0.337926, loss_max: -0.588833, Top1 acc: 83.593750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.584378, Top1 acc: 68.493340, Top5 acc: 94.516533
+Acc. for each class: 1st: 85.765221,  2nd: 28.431654, 3rd: 68.123665, 4th: 77.348335, 5th: 86.207634, 6th: 21.638554
+Avg. over all classes: 61.252514
+Train: 706, loss_min: 0.383771, loss_max: -0.612803, Top1 acc: 76.562500, Top5 acc: 100.000000
+Train: 708, loss_min: 0.420992, loss_max: -0.698898, Top1 acc: 75.000000, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.544133, Top1 acc: 68.983368, Top5 acc: 94.475121
+Acc. for each class: 1st: 86.533188,  2nd: 29.381294, 3rd: 64.733475, 4th: 81.059517, 5th: 84.523552, 6th: 18.409639
+Avg. over all classes: 60.773441
+Train: 710, loss_min: 0.402715, loss_max: -0.761497, Top1 acc: 75.000000, Top5 acc: 100.000000
+Train: 712, loss_min: 0.379853, loss_max: -0.560806, Top1 acc: 80.468750, Top5 acc: 100.000000
+Train: 714, loss_min: 0.442057, loss_max: -0.602849, Top1 acc: 73.437500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.441690, Top1 acc: 69.911659, Top5 acc: 94.357796
+Acc. for each class: 1st: 86.066925,  2nd: 27.309353, 3rd: 66.268654, 4th: 82.203636, 5th: 86.996376, 6th: 20.867470
+Avg. over all classes: 61.618732
+Train: 716, loss_min: 0.368257, loss_max: -0.751453, Top1 acc: 80.468750, Top5 acc: 100.000000
+Train: 718, loss_min: 0.426135, loss_max: -0.703344, Top1 acc: 73.437500, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.414467, Top1 acc: 69.935814, Top5 acc: 94.699432
+Acc. for each class: 1st: 83.653320,  2nd: 30.618706, 3rd: 68.102348, 4th: 81.982498, 5th: 85.440208, 6th: 20.385542
+Avg. over all classes: 61.697102
+Train: 720, loss_min: 0.348741, loss_max: -0.753769, Top1 acc: 69.531250, Top5 acc: 100.000000
+Train: 722, loss_min: 0.415343, loss_max: -0.693134, Top1 acc: 77.343750, Top5 acc: 100.000000
+Train: 724, loss_min: 0.382804, loss_max: -0.662964, Top1 acc: 68.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.465954, Top1 acc: 69.984131, Top5 acc: 94.664925
+Acc. for each class: 1st: 84.201866,  2nd: 29.064749, 3rd: 68.422173, 4th: 81.905586, 5th: 84.885948, 6th: 23.614458
+Avg. over all classes: 62.015797
+Train: 726, loss_min: 0.377026, loss_max: -0.743556, Top1 acc: 73.437500, Top5 acc: 100.000000
+Train: 728, loss_min: 0.357621, loss_max: -0.749207, Top1 acc: 78.125000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.364868, Top1 acc: 70.857208, Top5 acc: 94.651115
+Acc. for each class: 1st: 86.697754,  2nd: 28.949640, 3rd: 74.136459, 4th: 80.251900, 5th: 85.099129, 6th: 26.506023
+Avg. over all classes: 63.606812
+Best accuracy till now: 70.857208
+Train: 730, loss_min: 0.408253, loss_max: -0.660197, Top1 acc: 76.562500, Top5 acc: 98.437500
+Train: 732, loss_min: 0.355008, loss_max: -0.624123, Top1 acc: 75.000000, Top5 acc: 100.000000
+Train: 734, loss_min: 0.412273, loss_max: -0.782973, Top1 acc: 72.656250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.398886, Top1 acc: 70.667404, Top5 acc: 94.647667
+Acc. for each class: 1st: 87.054306,  2nd: 29.323742, 3rd: 73.731346, 4th: 79.992310, 5th: 85.887871, 6th: 23.036144
+Avg. over all classes: 63.170956
+Train: 736, loss_min: 0.375252, loss_max: -0.782009, Top1 acc: 71.875000, Top5 acc: 100.000000
+Train: 738, loss_min: 0.388724, loss_max: -0.781458, Top1 acc: 78.906250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.512365, Top1 acc: 70.153221, Top5 acc: 94.544144
+Acc. for each class: 1st: 87.685135,  2nd: 26.014389, 3rd: 72.025589, 4th: 79.328911, 5th: 86.186317, 6th: 26.795181
+Avg. over all classes: 63.005920
+Train: 740, loss_min: 0.417175, loss_max: -0.786013, Top1 acc: 80.468750, Top5 acc: 100.000000
+Train: 742, loss_min: 0.341065, loss_max: -0.898283, Top1 acc: 81.250000, Top5 acc: 100.000000
+Train: 744, loss_min: 0.422264, loss_max: -0.895446, Top1 acc: 75.781250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.466501, Top1 acc: 70.829597, Top5 acc: 94.457870
+Acc. for each class: 1st: 85.518379,  2nd: 24.892086, 3rd: 72.515991, 4th: 83.203537, 5th: 85.994461, 6th: 21.831326
+Avg. over all classes: 62.325962
+Train: 746, loss_min: 0.416271, loss_max: -0.799437, Top1 acc: 72.656250, Top5 acc: 100.000000
+Train: 748, loss_min: 0.407697, loss_max: -0.688410, Top1 acc: 71.875000, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.308569, Top1 acc: 71.616402, Top5 acc: 94.592453
+Acc. for each class: 1st: 86.450905,  2nd: 29.525179, 3rd: 71.705757, 4th: 84.193825, 5th: 84.715416, 6th: 23.180723
+Avg. over all classes: 63.295303
+Best accuracy till now: 71.616402
+Train: 750, loss_min: 0.416714, loss_max: -0.714266, Top1 acc: 67.968750, Top5 acc: 100.000000
+Train: 752, loss_min: 0.384799, loss_max: -0.875710, Top1 acc: 76.562500, Top5 acc: 100.000000
+Train: 754, loss_min: 0.363314, loss_max: -0.684092, Top1 acc: 78.906250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.448517, Top1 acc: 70.864105, Top5 acc: 94.530334
+Acc. for each class: 1st: 84.530991,  2nd: 28.000000, 3rd: 70.788910, 4th: 83.636192, 5th: 85.354935, 6th: 22.024096
+Avg. over all classes: 62.389191
+Train: 756, loss_min: 0.398044, loss_max: -0.790828, Top1 acc: 74.218750, Top5 acc: 100.000000
+Train: 758, loss_min: 0.423359, loss_max: -0.877808, Top1 acc: 78.906250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.351861, Top1 acc: 71.409348, Top5 acc: 94.768448
+Acc. for each class: 1st: 86.039497,  2nd: 31.079136, 3rd: 74.882729, 4th: 80.684547, 5th: 85.440208, 6th: 27.180723
+Avg. over all classes: 64.217812
+Train: 760, loss_min: 0.392879, loss_max: -0.901392, Top1 acc: 80.468750, Top5 acc: 100.000000
+Train: 762, loss_min: 0.370866, loss_max: -0.819186, Top1 acc: 78.125000, Top5 acc: 100.000000
+Train: 764, loss_min: 0.367460, loss_max: -0.871840, Top1 acc: 80.468750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.563861, Top1 acc: 70.022087, Top5 acc: 94.685631
+Acc. for each class: 1st: 83.543610,  2nd: 29.035971, 3rd: 70.213219, 4th: 81.367180, 5th: 84.587509, 6th: 24.674698
+Avg. over all classes: 62.237030
+Train: 766, loss_min: 0.342707, loss_max: -0.681262, Top1 acc: 72.656250, Top5 acc: 100.000000
+Train: 768, loss_min: 0.374250, loss_max: -0.878070, Top1 acc: 70.312500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.362009, Top1 acc: 71.585342, Top5 acc: 94.806412
+Acc. for each class: 1st: 83.653320,  2nd: 33.323742, 3rd: 72.473351, 4th: 83.213150, 5th: 84.182480, 6th: 25.686747
+Avg. over all classes: 63.755466
+Train: 770, loss_min: 0.350483, loss_max: -0.708020, Top1 acc: 79.687500, Top5 acc: 100.000000
+Train: 772, loss_min: 0.434644, loss_max: -0.783519, Top1 acc: 71.875000, Top5 acc: 99.218750
+Train: 774, loss_min: 0.409723, loss_max: -0.932078, Top1 acc: 76.562500, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.435178, Top1 acc: 71.095314, Top5 acc: 94.630417
+Acc. for each class: 1st: 84.201866,  2nd: 31.482014, 3rd: 74.413643, 4th: 82.838188, 5th: 81.794930, 6th: 23.855421
+Avg. over all classes: 63.097675
+Train: 776, loss_min: 0.385511, loss_max: -0.687666, Top1 acc: 78.125000, Top5 acc: 100.000000
+Train: 778, loss_min: 0.354653, loss_max: -0.775085, Top1 acc: 78.125000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.267525, Top1 acc: 72.323837, Top5 acc: 94.447517
+Acc. for each class: 1st: 84.064728,  2nd: 32.661869, 3rd: 74.968018, 4th: 84.857224, 5th: 83.244514, 6th: 24.626507
+Avg. over all classes: 64.070473
+Best accuracy till now: 72.323837
+Train: 780, loss_min: 0.375314, loss_max: -0.809582, Top1 acc: 71.875000, Top5 acc: 100.000000
+Train: 782, loss_min: 0.368045, loss_max: -0.781049, Top1 acc: 66.406250, Top5 acc: 100.000000
+Train: 784, loss_min: 0.396202, loss_max: -0.834607, Top1 acc: 76.562500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.180396, Top1 acc: 73.155502, Top5 acc: 94.575195
+Acc. for each class: 1st: 86.450905,  2nd: 31.971224, 3rd: 74.690834, 4th: 84.664932, 5th: 85.546791, 6th: 29.590361
+Avg. over all classes: 65.485840
+Best accuracy till now: 73.155502
+Train: 786, loss_min: 0.353324, loss_max: -0.816177, Top1 acc: 85.156250, Top5 acc: 100.000000
+Train: 788, loss_min: 0.319850, loss_max: -0.755914, Top1 acc: 77.343750, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.202364, Top1 acc: 72.768997, Top5 acc: 94.747742
+Acc. for each class: 1st: 86.341194,  2nd: 36.834534, 3rd: 75.479744, 4th: 80.915298, 5th: 86.079727, 6th: 32.048191
+Avg. over all classes: 66.283119
+Train: 790, loss_min: 0.361344, loss_max: -0.884231, Top1 acc: 75.000000, Top5 acc: 100.000000
+Train: 792, loss_min: 0.345261, loss_max: -0.741462, Top1 acc: 74.218750, Top5 acc: 99.218750
+Train: 794, loss_min: 0.415364, loss_max: -0.991031, Top1 acc: 68.750000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.184702, Top1 acc: 73.093384, Top5 acc: 94.658020
+Acc. for each class: 1st: 85.573235,  2nd: 34.129498, 3rd: 75.948830, 4th: 84.001541, 5th: 85.482841, 6th: 27.277109
+Avg. over all classes: 65.402168
+Train: 796, loss_min: 0.361200, loss_max: -0.846599, Top1 acc: 72.656250, Top5 acc: 100.000000
+Train: 798, loss_min: 0.398500, loss_max: -0.984035, Top1 acc: 82.812500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.299022, Top1 acc: 72.586105, Top5 acc: 94.488930
+Acc. for each class: 1st: 86.204056,  2nd: 31.942446, 3rd: 78.976547, 4th: 82.280548, 5th: 83.713493, 6th: 28.530121
+Avg. over all classes: 65.274536
+Train: 800, loss_min: 0.322592, loss_max: -0.797708, Top1 acc: 70.312500, Top5 acc: 100.000000
+Train: 802, loss_min: 0.375813, loss_max: -0.969512, Top1 acc: 75.000000, Top5 acc: 100.000000
+Train: 804, loss_min: 0.388989, loss_max: -1.018145, Top1 acc: 76.562500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.283587, Top1 acc: 72.662025, Top5 acc: 94.088623
+Acc. for each class: 1st: 88.864510,  2nd: 28.892086, 3rd: 77.846481, 4th: 81.444092, 5th: 84.289062, 6th: 35.469879
+Avg. over all classes: 66.134354
+Train: 806, loss_min: 0.382353, loss_max: -1.010596, Top1 acc: 75.781250, Top5 acc: 99.218750
+Train: 808, loss_min: 0.425453, loss_max: -0.871378, Top1 acc: 71.875000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.339428, Top1 acc: 72.555046, Top5 acc: 94.516533
+Acc. for each class: 1st: 87.301155,  2nd: 30.618706, 3rd: 79.317696, 4th: 81.838287, 5th: 83.564270, 6th: 30.168674
+Avg. over all classes: 65.468132
+Train: 810, loss_min: 0.366143, loss_max: -0.963759, Top1 acc: 71.093750, Top5 acc: 98.437500
+Train: 812, loss_min: 0.398331, loss_max: -0.980488, Top1 acc: 71.875000, Top5 acc: 100.000000
+Train: 814, loss_min: 0.358768, loss_max: -0.867557, Top1 acc: 74.218750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.296098, Top1 acc: 72.851822, Top5 acc: 94.640762
+Acc. for each class: 1st: 86.697754,  2nd: 32.374100, 3rd: 81.044777, 4th: 80.405731, 5th: 83.756126, 6th: 35.277107
+Avg. over all classes: 66.592598
+Train: 816, loss_min: 0.337716, loss_max: -0.844938, Top1 acc: 76.562500, Top5 acc: 100.000000
+Train: 818, loss_min: 0.433568, loss_max: -1.045716, Top1 acc: 66.406250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.404253, Top1 acc: 72.234108, Top5 acc: 94.564850
+Acc. for each class: 1st: 86.697754,  2nd: 34.705036, 3rd: 79.488274, 4th: 78.848190, 5th: 82.626305, 6th: 36.626507
+Avg. over all classes: 66.498680
+Train: 820, loss_min: 0.344485, loss_max: -0.742255, Top1 acc: 73.437500, Top5 acc: 99.218750
+Train: 822, loss_min: 0.410691, loss_max: -1.064381, Top1 acc: 82.812500, Top5 acc: 100.000000
+Train: 824, loss_min: 0.409694, loss_max: -0.938160, Top1 acc: 70.312500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.334947, Top1 acc: 72.803513, Top5 acc: 94.519981
+Acc. for each class: 1st: 86.012070,  2nd: 32.287769, 3rd: 76.844353, 4th: 80.876839, 5th: 85.376251, 6th: 39.421688
+Avg. over all classes: 66.803162
+Train: 826, loss_min: 0.367994, loss_max: -0.924197, Top1 acc: 69.531250, Top5 acc: 100.000000
+Train: 828, loss_min: 0.408409, loss_max: -1.048998, Top1 acc: 74.218750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.422025, Top1 acc: 72.617165, Top5 acc: 94.547592
+Acc. for each class: 1st: 85.765221,  2nd: 28.143885, 3rd: 78.699364, 4th: 82.194023, 5th: 85.227028, 6th: 33.734940
+Avg. over all classes: 65.627411
+Train: 830, loss_min: 0.369648, loss_max: -0.784473, Top1 acc: 72.656250, Top5 acc: 100.000000
+Train: 832, loss_min: 0.362130, loss_max: -0.894605, Top1 acc: 78.906250, Top5 acc: 100.000000
+Train: 834, loss_min: 0.331576, loss_max: -0.937135, Top1 acc: 71.875000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.389702, Top1 acc: 72.865623, Top5 acc: 94.247368
+Acc. for each class: 1st: 85.106964,  2nd: 27.309353, 3rd: 79.083153, 4th: 82.934334, 5th: 84.630142, 6th: 36.530121
+Avg. over all classes: 65.932350
+Train: 836, loss_min: 0.372558, loss_max: -0.955493, Top1 acc: 67.187500, Top5 acc: 100.000000
+Train: 838, loss_min: 0.384871, loss_max: -0.971522, Top1 acc: 74.218750, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.257043, Top1 acc: 73.490234, Top5 acc: 94.237015
+Acc. for each class: 1st: 85.244102,  2nd: 29.899281, 3rd: 78.912582, 4th: 83.953468, 5th: 83.436371, 6th: 38.650604
+Avg. over all classes: 66.682732
+Best accuracy till now: 73.490234
+Train: 840, loss_min: 0.306905, loss_max: -0.871900, Top1 acc: 71.875000, Top5 acc: 99.218750
+Train: 842, loss_min: 0.350038, loss_max: -1.069044, Top1 acc: 76.562500, Top5 acc: 100.000000
+Train: 844, loss_min: 0.317282, loss_max: -0.945175, Top1 acc: 69.531250, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.208582, Top1 acc: 73.731796, Top5 acc: 93.954041
+Acc. for each class: 1st: 85.408669,  2nd: 29.812950, 3rd: 82.985077, 4th: 82.540138, 5th: 82.391815, 6th: 42.120483
+Avg. over all classes: 67.543190
+Best accuracy till now: 73.731796
+Train: 846, loss_min: 0.341768, loss_max: -0.972221, Top1 acc: 75.781250, Top5 acc: 100.000000
+Train: 848, loss_min: 0.369617, loss_max: -1.067752, Top1 acc: 67.968750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.217012, Top1 acc: 73.831879, Top5 acc: 94.409554
+Acc. for each class: 1st: 85.573235,  2nd: 33.266186, 3rd: 79.594879, 4th: 82.443993, 5th: 82.967384, 6th: 44.289158
+Avg. over all classes: 68.022469
+Best accuracy till now: 73.831879
+Train: 850, loss_min: 0.365801, loss_max: -0.933480, Top1 acc: 71.875000, Top5 acc: 100.000000
+Train: 852, loss_min: 0.299282, loss_max: -0.983631, Top1 acc: 74.218750, Top5 acc: 100.000000
+Train: 854, loss_min: 0.298629, loss_max: -0.974638, Top1 acc: 71.875000, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.255311, Top1 acc: 73.666229, Top5 acc: 94.274971
+Acc. for each class: 1st: 87.520569,  2nd: 31.165468, 3rd: 83.347549, 4th: 81.415245, 5th: 81.539116, 6th: 41.975903
+Avg. over all classes: 67.827309
+Train: 856, loss_min: 0.337903, loss_max: -1.032229, Top1 acc: 78.125000, Top5 acc: 100.000000
+Train: 858, loss_min: 0.370020, loss_max: -0.962737, Top1 acc: 77.343750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.343195, Top1 acc: 73.048523, Top5 acc: 94.433716
+Acc. for each class: 1st: 87.931984,  2nd: 31.654676, 3rd: 80.810234, 4th: 81.146042, 5th: 81.730972, 6th: 38.457832
+Avg. over all classes: 66.955292
+Train: 860, loss_min: 0.428406, loss_max: -0.975067, Top1 acc: 67.968750, Top5 acc: 100.000000
+Train: 862, loss_min: 0.340110, loss_max: -1.057897, Top1 acc: 78.906250, Top5 acc: 100.000000
+Train: 864, loss_min: 0.318304, loss_max: -0.985318, Top1 acc: 73.437500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.409283, Top1 acc: 72.910484, Top5 acc: 94.192146
+Acc. for each class: 1st: 87.301155,  2nd: 29.352518, 3rd: 81.236671, 4th: 80.021149, 5th: 82.988701, 6th: 43.325302
+Avg. over all classes: 67.370918
+Train: 866, loss_min: 0.371642, loss_max: -1.134115, Top1 acc: 75.000000, Top5 acc: 100.000000
+Train: 868, loss_min: 0.350336, loss_max: -1.252101, Top1 acc: 72.656250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.411310, Top1 acc: 73.041618, Top5 acc: 94.109329
+Acc. for each class: 1st: 87.136589,  2nd: 30.446043, 3rd: 83.987206, 4th: 79.059708, 5th: 80.899597, 6th: 46.939758
+Avg. over all classes: 68.078148
+Train: 870, loss_min: 0.336138, loss_max: -1.105570, Top1 acc: 73.437500, Top5 acc: 99.218750
+Train: 872, loss_min: 0.424611, loss_max: -1.157263, Top1 acc: 76.562500, Top5 acc: 100.000000
+Train: 874, loss_min: 0.293865, loss_max: -1.018575, Top1 acc: 75.000000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.526600, Top1 acc: 72.489479, Top5 acc: 94.254265
+Acc. for each class: 1st: 83.653320,  2nd: 29.899281, 3rd: 80.405121, 4th: 81.261414, 5th: 80.132172, 6th: 45.060242
+Avg. over all classes: 66.735252
+Train: 876, loss_min: 0.356734, loss_max: -1.057386, Top1 acc: 71.093750, Top5 acc: 100.000000
+Train: 878, loss_min: 0.272117, loss_max: -1.202490, Top1 acc: 75.781250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.354950, Top1 acc: 74.025124, Top5 acc: 94.333633
+Acc. for each class: 1st: 87.218872,  2nd: 31.971224, 3rd: 82.985077, 4th: 80.915298, 5th: 80.878281, 6th: 50.987953
+Avg. over all classes: 69.159447
+Best accuracy till now: 74.025124
+Train: 880, loss_min: 0.326789, loss_max: -1.131859, Top1 acc: 73.437500, Top5 acc: 100.000000
+Train: 882, loss_min: 0.306837, loss_max: -1.052649, Top1 acc: 64.062500, Top5 acc: 100.000000
+Train: 884, loss_min: 0.345719, loss_max: -1.371763, Top1 acc: 75.000000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.361157, Top1 acc: 73.883636, Top5 acc: 94.254265
+Acc. for each class: 1st: 87.794846,  2nd: 36.892086, 3rd: 78.912582, 4th: 79.963463, 5th: 82.114685, 6th: 50.939758
+Avg. over all classes: 69.436241
+Train: 886, loss_min: 0.325983, loss_max: -1.207770, Top1 acc: 71.093750, Top5 acc: 99.218750
+Train: 888, loss_min: 0.385024, loss_max: -1.178916, Top1 acc: 74.218750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.488392, Top1 acc: 73.272827, Top5 acc: 93.805649
+Acc. for each class: 1st: 83.927589,  2nd: 31.827337, 3rd: 80.042641, 4th: 85.818672, 5th: 78.256233, 6th: 34.506023
+Avg. over all classes: 65.729744
+Train: 890, loss_min: 0.393597, loss_max: -1.078333, Top1 acc: 67.187500, Top5 acc: 100.000000
+Train: 892, loss_min: 0.397746, loss_max: -1.209842, Top1 acc: 71.875000, Top5 acc: 100.000000
+Train: 894, loss_min: 0.319798, loss_max: -0.969934, Top1 acc: 76.562500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.343835, Top1 acc: 74.277039, Top5 acc: 94.309479
+Acc. for each class: 1st: 85.737793,  2nd: 31.050360, 3rd: 79.061836, 4th: 84.472649, 5th: 82.796844, 6th: 45.349396
+Avg. over all classes: 68.078148
+Best accuracy till now: 74.277039
+Train: 896, loss_min: 0.244401, loss_max: -1.251571, Top1 acc: 74.218750, Top5 acc: 100.000000
+Train: 898, loss_min: 0.319731, loss_max: -1.209720, Top1 acc: 66.406250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.375100, Top1 acc: 74.221825, Top5 acc: 94.357796
+Acc. for each class: 1st: 86.999451,  2nd: 30.446043, 3rd: 82.196159, 4th: 81.713295, 5th: 81.816246, 6th: 52.337349
+Avg. over all classes: 69.251427
+Train: 900, loss_min: 0.274081, loss_max: -1.290150, Top1 acc: 79.687500, Top5 acc: 100.000000
+Train: 902, loss_min: 0.343961, loss_max: -1.268445, Top1 acc: 68.750000, Top5 acc: 100.000000
+Train: 904, loss_min: 0.290514, loss_max: -1.081329, Top1 acc: 74.218750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.399893, Top1 acc: 73.676582, Top5 acc: 94.316383
+Acc. for each class: 1st: 85.106964,  2nd: 31.597122, 3rd: 79.637527, 4th: 83.347755, 5th: 80.025581, 6th: 47.759037
+Avg. over all classes: 67.912331
+Train: 906, loss_min: 0.355754, loss_max: -1.367045, Top1 acc: 74.218750, Top5 acc: 100.000000
+Train: 908, loss_min: 0.295217, loss_max: -1.372751, Top1 acc: 71.875000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.238502, Top1 acc: 74.770515, Top5 acc: 94.112778
+Acc. for each class: 1st: 87.218872,  2nd: 33.266186, 3rd: 84.733475, 4th: 80.963371, 5th: 81.198036, 6th: 54.313251
+Avg. over all classes: 70.282204
+Best accuracy till now: 74.770515
+Train: 910, loss_min: 0.276013, loss_max: -1.279498, Top1 acc: 71.875000, Top5 acc: 100.000000
+Train: 912, loss_min: 0.306382, loss_max: -1.315650, Top1 acc: 68.750000, Top5 acc: 100.000000
+Train: 914, loss_min: 0.306176, loss_max: -1.255805, Top1 acc: 76.562500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.176625, Top1 acc: 75.322662, Top5 acc: 93.988548
+Acc. for each class: 1st: 86.368622,  2nd: 33.237411, 3rd: 84.179108, 4th: 81.944046, 5th: 83.073975, 6th: 55.662651
+Avg. over all classes: 70.744301
+Best accuracy till now: 75.322662
+Train: 916, loss_min: 0.309058, loss_max: -1.266444, Top1 acc: 72.656250, Top5 acc: 100.000000
+Train: 918, loss_min: 0.350007, loss_max: -1.260312, Top1 acc: 75.000000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.182792, Top1 acc: 75.709160, Top5 acc: 94.333633
+Acc. for each class: 1st: 86.862312,  2nd: 37.928059, 3rd: 85.373131, 4th: 81.146042, 5th: 82.562355, 6th: 54.795181
+Avg. over all classes: 71.444519
+Best accuracy till now: 75.709160
+Train: 920, loss_min: 0.297186, loss_max: -1.277055, Top1 acc: 78.906250, Top5 acc: 100.000000
+Train: 922, loss_min: 0.283735, loss_max: -1.096379, Top1 acc: 66.406250, Top5 acc: 100.000000
+Train: 924, loss_min: 0.325475, loss_max: -1.161003, Top1 acc: 69.531250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.156071, Top1 acc: 75.364075, Top5 acc: 93.816002
+Acc. for each class: 1st: 85.161819,  2nd: 33.237411, 3rd: 86.545845, 4th: 83.703491, 5th: 80.132172, 6th: 50.843372
+Avg. over all classes: 69.937355
+Train: 926, loss_min: 0.288823, loss_max: -1.092827, Top1 acc: 57.031250, Top5 acc: 98.437500
+Train: 928, loss_min: 0.301260, loss_max: -1.387911, Top1 acc: 78.125000, Top5 acc: 98.437500
+                                    Test: 0, loss: 2.216307, Top1 acc: 75.374428, Top5 acc: 94.395752
+Acc. for each class: 1st: 88.178825,  2nd: 34.676258, 3rd: 86.503197, 4th: 79.857704, 5th: 84.054573, 6th: 53.783131
+Avg. over all classes: 71.175613
+Train: 930, loss_min: 0.343466, loss_max: -1.219283, Top1 acc: 71.093750, Top5 acc: 100.000000
+Train: 932, loss_min: 0.323437, loss_max: -1.216660, Top1 acc: 70.312500, Top5 acc: 100.000000
+Train: 934, loss_min: 0.362252, loss_max: -1.474949, Top1 acc: 71.875000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.319867, Top1 acc: 74.818832, Top5 acc: 94.174896
+Acc. for each class: 1st: 87.438286,  2nd: 31.136690, 3rd: 83.006393, 4th: 82.472839, 5th: 82.562355, 6th: 51.421688
+Avg. over all classes: 69.673042
+Train: 936, loss_min: 0.267708, loss_max: -1.293070, Top1 acc: 76.562500, Top5 acc: 100.000000
+Train: 938, loss_min: 0.286291, loss_max: -1.283062, Top1 acc: 73.437500, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.216549, Top1 acc: 75.612534, Top5 acc: 94.323280
+Acc. for each class: 1st: 85.381241,  2nd: 35.079136, 3rd: 83.773987, 4th: 82.030571, 5th: 83.436371, 6th: 58.024097
+Avg. over all classes: 71.287567
+Train: 940, loss_min: 0.311171, loss_max: -1.393977, Top1 acc: 81.250000, Top5 acc: 100.000000
+Train: 942, loss_min: 0.318572, loss_max: -1.233084, Top1 acc: 74.218750, Top5 acc: 99.218750
+Train: 944, loss_min: 0.256126, loss_max: -1.182028, Top1 acc: 70.312500, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.233325, Top1 acc: 75.567673, Top5 acc: 93.936783
+Acc. for each class: 1st: 86.505760,  2nd: 31.741007, 3rd: 87.185501, 4th: 80.251900, 5th: 83.201874, 6th: 62.746986
+Avg. over all classes: 71.938835
+Train: 946, loss_min: 0.279892, loss_max: -1.251336, Top1 acc: 71.093750, Top5 acc: 99.218750
+Train: 948, loss_min: 0.335224, loss_max: -1.338082, Top1 acc: 67.968750, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.364599, Top1 acc: 74.825729, Top5 acc: 93.664162
+Acc. for each class: 1st: 87.520569,  2nd: 34.014389, 3rd: 84.669510, 4th: 79.251991, 5th: 80.046898, 6th: 64.626503
+Avg. over all classes: 71.688309
+Train: 950, loss_min: 0.267815, loss_max: -1.204393, Top1 acc: 78.125000, Top5 acc: 100.000000
+Train: 952, loss_min: 0.243659, loss_max: -1.240776, Top1 acc: 82.031250, Top5 acc: 100.000000
+Train: 954, loss_min: 0.305141, loss_max: -1.495099, Top1 acc: 72.656250, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.174605, Top1 acc: 75.940369, Top5 acc: 94.119682
+Acc. for each class: 1st: 85.573235,  2nd: 35.827339, 3rd: 86.929634, 4th: 81.655609, 5th: 80.366661, 6th: 62.698795
+Avg. over all classes: 72.175209
+Best accuracy till now: 75.940369
+Train: 956, loss_min: 0.284477, loss_max: -1.248923, Top1 acc: 76.562500, Top5 acc: 100.000000
+Train: 958, loss_min: 0.273926, loss_max: -1.341899, Top1 acc: 58.593750, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.346614, Top1 acc: 74.932709, Top5 acc: 93.929878
+Acc. for each class: 1st: 84.640701,  2nd: 32.604317, 3rd: 85.778252, 4th: 82.319008, 5th: 78.895760, 6th: 58.265060
+Avg. over all classes: 70.417183
+Train: 960, loss_min: 0.284499, loss_max: -1.402404, Top1 acc: 75.000000, Top5 acc: 100.000000
+Train: 962, loss_min: 0.219438, loss_max: -1.308812, Top1 acc: 68.750000, Top5 acc: 100.000000
+Train: 964, loss_min: 0.265463, loss_max: -1.495699, Top1 acc: 71.093750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.172784, Top1 acc: 76.409691, Top5 acc: 94.219757
+Acc. for each class: 1st: 85.490952,  2nd: 39.683453, 3rd: 86.396591, 4th: 83.117004, 5th: 78.362823, 6th: 61.349396
+Avg. over all classes: 72.400032
+Best accuracy till now: 76.409691
+Train: 966, loss_min: 0.241630, loss_max: -1.105368, Top1 acc: 69.531250, Top5 acc: 100.000000
+Train: 968, loss_min: 0.285787, loss_max: -1.528247, Top1 acc: 75.781250, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.199468, Top1 acc: 76.074959, Top5 acc: 93.967842
+Acc. for each class: 1st: 87.602852,  2nd: 38.935253, 3rd: 86.375267, 4th: 82.693970, 5th: 76.934555, 6th: 59.614456
+Avg. over all classes: 72.026054
+Train: 970, loss_min: 0.266878, loss_max: -1.208793, Top1 acc: 70.312500, Top5 acc: 100.000000
+Train: 972, loss_min: 0.252035, loss_max: -1.340442, Top1 acc: 76.562500, Top5 acc: 100.000000
+Train: 974, loss_min: 0.309682, loss_max: -1.560280, Top1 acc: 74.218750, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.240445, Top1 acc: 76.188835, Top5 acc: 93.322525
+Acc. for each class: 1st: 86.450905,  2nd: 30.676258, 3rd: 82.921112, 4th: 83.972694, 5th: 80.878281, 6th: 69.542168
+Avg. over all classes: 72.406898
+Train: 976, loss_min: 0.267740, loss_max: -1.413332, Top1 acc: 72.656250, Top5 acc: 100.000000
+Train: 978, loss_min: 0.257752, loss_max: -1.492373, Top1 acc: 67.968750, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.215016, Top1 acc: 76.268204, Top5 acc: 93.315620
+Acc. for each class: 1st: 86.588043,  2nd: 30.359713, 3rd: 85.351814, 4th: 83.761177, 5th: 80.046898, 6th: 68.385544
+Avg. over all classes: 72.415527
+Train: 980, loss_min: 0.284663, loss_max: -1.375111, Top1 acc: 68.750000, Top5 acc: 100.000000
+Train: 982, loss_min: 0.239423, loss_max: -1.431565, Top1 acc: 71.093750, Top5 acc: 100.000000
+Train: 984, loss_min: 0.240104, loss_max: -1.502652, Top1 acc: 57.812500, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.109927, Top1 acc: 76.627098, Top5 acc: 93.960938
+Acc. for each class: 1st: 84.695557,  2nd: 37.237411, 3rd: 86.865669, 4th: 83.309296, 5th: 80.281387, 6th: 63.518074
+Avg. over all classes: 72.651237
+Best accuracy till now: 76.627098
+Train: 986, loss_min: 0.287918, loss_max: -1.309834, Top1 acc: 71.875000, Top5 acc: 99.218750
+Train: 988, loss_min: 0.217467, loss_max: -1.462113, Top1 acc: 71.093750, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.192836, Top1 acc: 76.085312, Top5 acc: 93.926430
+Acc. for each class: 1st: 85.463524,  2nd: 41.870502, 3rd: 88.805969, 4th: 79.444283, 5th: 78.618629, 6th: 65.590363
+Avg. over all classes: 73.298882
+Train: 990, loss_min: 0.295433, loss_max: -1.483084, Top1 acc: 61.718750, Top5 acc: 100.000000
+Train: 992, loss_min: 0.295241, loss_max: -1.564642, Top1 acc: 70.312500, Top5 acc: 100.000000
+Train: 994, loss_min: 0.243584, loss_max: -1.383347, Top1 acc: 75.000000, Top5 acc: 100.000000
+                                    Test: 0, loss: 2.249387, Top1 acc: 75.567673, Top5 acc: 93.491615
+Acc. for each class: 1st: 83.187057,  2nd: 32.690647, 3rd: 87.953094, 4th: 82.713203, 5th: 77.915154, 6th: 64.867470
+Avg. over all classes: 71.554436
+Train: 996, loss_min: 0.259899, loss_max: -1.377201, Top1 acc: 66.406250, Top5 acc: 100.000000
+Train: 998, loss_min: 0.230466, loss_max: -1.394932, Top1 acc: 71.093750, Top5 acc: 99.218750
+                                    Test: 0, loss: 2.432033, Top1 acc: 75.374428, Top5 acc: 93.688316
+Acc. for each class: 1st: 82.089958,  2nd: 32.374100, 3rd: 85.245201, 4th: 83.001633, 5th: 78.234917, 6th: 68.578316
+Avg. over all classes: 71.587349
+Train: 1000, loss_min: 0.178432, loss_max: -1.280494, Top1 acc: 62.500000, Top5 acc: 100.000000
+ * best_prec1: 76.627098
+-------------------------------------------
+Sun Dec  1 17:30:04 2019
+-------------------------------------------
