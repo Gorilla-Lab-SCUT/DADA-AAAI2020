@@ -1,5 +1,7 @@
 # DADA-AAAI2020
-Code release for [Discriminative Adversarial Domain Adaptation (AAAI2020)](https://arxiv.org/abs/1911.12036).
+Code release for Discriminative Adversarial Domain Adaptation (AAAI2020).
+
+The paper is avaliable [here](https://arxiv.org/abs/1911.12036).
 
 # Requirements
 - Python 3.6.8
