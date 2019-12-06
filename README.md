@@ -42,7 +42,10 @@ VisDA
 |_ ...
 ```
 # Training
+## [VisDA](http://ai.bu.edu/visda-2017/)
 Replace paths and domains in run_visda_partial.sh with those in your own system.
+## [Office-31](https://drive.google.com/file/d/0B4IapRTv9pJ1WGZVd1VDMmhwdlE/view)
+Replace paths and domains in run_office31_partial.sh with those in your own system.
 
 # Citation
 ```
