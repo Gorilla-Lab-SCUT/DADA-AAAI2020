@@ -53,6 +53,6 @@ Replace paths and domains in run_visda_partial.sh with those in your own system.
   title={Discriminative Adversarial Domain Adaptation},   
   author={Hui Tang and Kui Jia},   
   booktitle={Association for the Advancement of Artificial Intelligence (AAAI)},   
-  year={2019},
+  year={2020},
 }
 ```
